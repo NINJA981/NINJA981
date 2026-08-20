@@ -33,51 +33,70 @@
     <text x="16" y="24" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="0.08em">1. TOPOLOGY &amp; SAST EVALUATION</text>
 
     <!-- Node topology chain mini representation -->
-    <g transform="translate(16, 42)">
-      <rect x="0" y="0" width="398" height="68" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <g transform="translate(16, 38)">
+      <rect x="0" y="0" width="398" height="74" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
       <text x="12" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">Digital Twin Topology Mesh</text>
       
       <!-- Network Nodes flow -->
-      <g transform="translate(12, 30)">
-        <rect x="0" y="0" width="55" height="24" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.6" />
-        <text x="8" y="15" fill="#8b949e" font-family="ui-monospace, monospace" font-size="8.5">Firewall</text>
+      <g transform="translate(10, 30)">
+        <!-- Node 1: Firewall -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="64" height="28" rx="5" fill="#1f2532" stroke="#38bdf8" stroke-width="0.8" />
+          <text x="32" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Firewall</text>
+        </g>
         
-        <path d="M 58 12 L 68 12" stroke="#38bdf8" stroke-width="1" />
+        <!-- Arrow 1 -> 2 -->
+        <path d="M 66 14 L 74 14" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)" />
         
-        <rect x="72" y="0" width="55" height="24" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.6" />
-        <text x="11" y="15" fill="#8b949e" font-family="ui-monospace, monospace" font-size="8.5">LB / Ingress</text>
+        <!-- Node 2: Ingress / LB -->
+        <g transform="translate(78, 0)">
+          <rect x="0" y="0" width="66" height="28" rx="5" fill="#1f2532" stroke="#30363d" stroke-width="0.8" />
+          <text x="33" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Ingress LB</text>
+        </g>
 
-        <path d="M 130 12 L 140 12" stroke="#38bdf8" stroke-width="1" />
+        <!-- Arrow 2 -> 3 -->
+        <path d="M 146 14 L 154 14" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)" />
 
-        <rect x="144" y="0" width="55" height="24" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.6" />
-        <text x="11" y="15" fill="#8b949e" font-family="ui-monospace, monospace" font-size="8.5">Web Node</text>
+        <!-- Node 3: Web Node -->
+        <g transform="translate(158, 0)">
+          <rect x="0" y="0" width="64" height="28" rx="5" fill="#1f2532" stroke="#30363d" stroke-width="0.8" />
+          <text x="32" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Web Node</text>
+        </g>
 
-        <path d="M 202 12 L 212 12" stroke="#38bdf8" stroke-width="1" />
+        <!-- Arrow 3 -> 4 -->
+        <path d="M 224 14 L 232 14" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)" />
 
-        <rect x="216" y="0" width="55" height="24" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.6" />
-        <text x="14" y="15" fill="#8b949e" font-family="ui-monospace, monospace" font-size="8.5">API / Auth</text>
+        <!-- Node 4: API / Auth -->
+        <g transform="translate(236, 0)">
+          <rect x="0" y="0" width="66" height="28" rx="5" fill="#1f2532" stroke="#30363d" stroke-width="0.8" />
+          <text x="33" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">API / Auth</text>
+        </g>
 
-        <path d="M 274 12 L 284 12" stroke="#38bdf8" stroke-width="1" />
+        <!-- Arrow 4 -> 5 -->
+        <path d="M 304 14 L 312 14" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)" />
 
-        <rect x="288" y="0" width="55" height="24" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.6" />
-        <text x="10" y="15" fill="#8b949e" font-family="ui-monospace, monospace" font-size="8.5">Database</text>
+        <!-- Node 5: Database -->
+        <g transform="translate(316, 0)">
+          <rect x="0" y="0" width="62" height="28" rx="5" fill="#1f2532" stroke="#30363d" stroke-width="0.8" />
+          <text x="31" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Database</text>
+        </g>
       </g>
     </g>
 
     <!-- SAST Rule Engine box -->
-    <g transform="translate(16, 122)">
-      <rect x="0" y="0" width="398" height="60" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <g transform="translate(16, 120)">
+      <rect x="0" y="0" width="398" height="62" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
       <text x="12" y="18" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">SAST Security Rule Scanner</text>
       <text x="12" y="34" fill="#8b949e" font-family="ui-monospace, monospace" font-size="9.5">evaluates arena/{template} configs (CORS, 0.0.0.0, SSH)</text>
-      <text x="12" y="48" fill="#3fb950" font-family="ui-monospace, monospace" font-size="9">Determines baseline vulnerability index &amp; active defenses</text>
+      <text x="12" y="50" fill="#3fb950" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Determines baseline vulnerability index &amp; active defenses</text>
     </g>
 
     <!-- TanStack Start runtime note -->
-    <g transform="translate(16, 194)">
-      <rect x="0" y="0" width="398" height="56" rx="6" fill="#0d1117" stroke="#38bdf8" stroke-width="0.8" />
+    <g transform="translate(16, 192)">
+      <rect x="0" y="0" width="398" height="58" rx="6" fill="#0d1117" stroke="#38bdf8" stroke-width="0.8" />
       <text x="12" y="18" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="10" font-weight="700">RUNTIME ENVIRONMENT</text>
       <text x="12" y="34" fill="#c9d1d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">React 19 + TanStack Start server functions + Vite</text>
-      <text x="12" y="47" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5">State persisted in client-side reactive store (simStore)</text>
+      <text x="12" y="48" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5">State persisted in client-side reactive store (simStore)</text>
     </g>
   </g>
 
@@ -90,38 +109,38 @@
     <text x="16" y="24" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="0.08em">2. ENGINE VS. AI SEPARATION</text>
 
     <!-- Deterministic Engine Box -->
-    <g transform="translate(16, 42)">
-      <rect x="0" y="0" width="398" height="98" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1.2" />
+    <g transform="translate(16, 40)">
+      <rect x="0" y="0" width="398" height="100" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1.2" />
       <!-- Header with badge -->
       <text x="12" y="20" fill="#3fb950" font-family="ui-monospace, monospace" font-size="11" font-weight="700">DETERMINISTIC SIMULATION CORE</text>
       <rect x="290" y="8" width="96" height="18" rx="3" fill="#172b1d" />
-      <text x="298" y="20" fill="#3fb950" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700">100% CODE DRIVEN</text>
+      <text x="338" y="20" fill="#3fb950" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700" text-anchor="middle">100% CODE DRIVEN</text>
 
-      <text x="12" y="42" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
+      <text x="12" y="44" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
         • Scripted attack timeline (scenario.ts) &amp; Red Team actions
       </text>
-      <text x="12" y="60" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
+      <text x="12" y="62" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
         • Blue Team defensive triggers (rate limiting, isolation, WAF)
       </text>
-      <text x="12" y="78" fill="#8b949e" font-family="ui-monospace, monospace" font-size="9.5">
+      <text x="12" y="82" fill="#8b949e" font-family="ui-monospace, monospace" font-size="9.5">
         Outcome calculated via math/state machine, NOT LLM dice-rolls
       </text>
     </g>
 
     <!-- Post-Mortem AI Report Box -->
-    <g transform="translate(16, 152)">
-      <rect x="0" y="0" width="398" height="98" rx="6" fill="#161b22" stroke="#818cf8" stroke-width="1.2" />
+    <g transform="translate(16, 150)">
+      <rect x="0" y="0" width="398" height="100" rx="6" fill="#161b22" stroke="#818cf8" stroke-width="1.2" />
       <text x="12" y="20" fill="#818cf8" font-family="ui-monospace, monospace" font-size="11" font-weight="700">AI INCIDENT REFEREE &amp; POST-MORTEM</text>
       <rect x="300" y="8" width="86" height="18" rx="3" fill="#1e2238" />
-      <text x="308" y="20" fill="#818cf8" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700">AFTER-ACTION</text>
+      <text x="343" y="20" fill="#818cf8" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700" text-anchor="middle">AFTER-ACTION</text>
 
-      <text x="12" y="42" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
+      <text x="12" y="44" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
         • Summarizes deterministic event logs, telemetry &amp; timeline
       </text>
-      <text x="12" y="60" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
+      <text x="12" y="62" fill="#e6edf3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">
         • Generates Markdown incident report &amp; root-cause insights
       </text>
-      <text x="12" y="78" fill="#8b949e" font-family="ui-monospace, monospace" font-size="9.5">
+      <text x="12" y="82" fill="#8b949e" font-family="ui-monospace, monospace" font-size="9.5">
         Powered by Gemini 2.5 Flash for human-readable post-mortems
       </text>
     </g>
