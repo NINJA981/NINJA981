@@ -10,10 +10,7 @@
   <a href="#03--architecture-topology"><code>// TOPOLOGY</code></a> &nbsp;·&nbsp;
   <a href="#04--engineering-loadout"><code>// LOADOUT</code></a> &nbsp;·&nbsp;
   <a href="#05--engineering-principles"><code>// PRINCIPLES</code></a> &nbsp;·&nbsp;
-  <a href="#06--security-lab"><code>// SECURITY LAB</code></a> &nbsp;·&nbsp;
-  <a href="#07--computer-science--dsa-vectors"><code>// CS &amp; DSA</code></a> &nbsp;·&nbsp;
-  <a href="#08--github-telemetry"><code>// TELEMETRY</code></a> &nbsp;·&nbsp;
-  <a href="#10--contact"><code>// CONTACT</code></a>
+  <a href="#06--contact"><code>// CONTACT</code></a>
 </p>
 
 </div>
@@ -317,83 +314,7 @@ When code breaks or a simulation crashes, the failure provides the highest-signa
 
 ---
 
-## `06 // SECURITY LAB`
-
-Security is a primary vector of study and experimentation. Active exploration areas:
-
-```text
-APPSEC PRACTICES & VULNERABILITY MODELING
-├── SAST Rule Development      [Automated configuration & code scanners]
-├── Web Vulnerabilities        [SQLi, XSS, CSRF, IDOR, SSRF, Command Injection]
-├── Protocol & Parser Flaws    [LFI, Prototype Pollution, Race Conditions]
-├── Hands-on Labs & CTFs       [picoCTF, PortSwigger Web Security Academy]
-└── Tooling                    [Burp Suite, Static Analyzers, Network Twins]
-```
-
-> *Note: Studying application security and attack paths to build more resilient software architecture, practicing in controlled labs and simulations.*
-
----
-
-## `07 // COMPUTER SCIENCE &amp; DSA VECTORS`
-
-<p align="center">
-  <img src="./assets/learning-map.svg" alt="CS Learning Graph" width="100%">
-</p>
-
-### ☕ The Java DSA Transition
-Having developed an algorithmic problem-solving foundation in Python, I am currently transferring that knowledge to **Java** to gain deeper familiarity with static typing, memory models, and Java collections:
-- **Core Primitives &amp; Structures:** Arrays, Strings, `char`/`Character`, `int`/`Integer`
-- **Collections &amp; Abstract Data Types:** `ArrayList`, `HashMap`, `HashSet`, `Stack`, `Queue`, `PriorityQueue`
-- **Algorithmic Patterns:** Two Pointers, Sliding Window, Binary Search, Graph BFS/DFS, Dynamic Programming
-
----
-
-## `08 // GITHUB TELEMETRY`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=NINJA981&show_icons=true&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8&rank_icon=github" alt="NINJA981 GitHub Stats" width="48%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NINJA981&layout=compact&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8" alt="NINJA981 Top Languages" width="48%">
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NINJA981&bg_color=00000000&color=8B949E&line=38BDF8&point=FFFFFF&area=true&hide_border=true" alt="NINJA981 Activity Graph" width="98%">
-
-<br>
-<sub><em>Telemetry reflects public GitHub activity. Real evidence is in the repositories and code commits.</em></sub>
-
-</div>
-
----
-
-## `09 // INVESTIGATION`
-
-<details>
-<summary><kbd>🔍</kbd> <code>$ ./ninja981 --inspect-system</code></summary>
-
-```text
-[EXEC] Querying system diagnostics...
-[STATUS] 200 OK
-
-┌────────────────────────────────────────────────────────┐
-│  NINJA981 SYSTEM DIAGNOSTICS                           │
-├────────────────────────────────────────────────────────┤
-│  Subject       : Sai Charan                            │
-│  Coordinates   : 13.0827° N, 80.2707° E (Chennai, IN)  │
-│  Institution   : Sathyabama Institute of Sci & Tech    │
-│  Focus         : AI Systems · Backend · Security       │
-│  Philosophy    : Build → Break → Understand → Rebuild  │
-│  Signal Check  : Code > Talk                           │
-└────────────────────────────────────────────────────────┘
-
-Good software rewards curiosity. Thanks for inspecting the codebase.
-```
-
-</details>
-
----
-
-## `10 // CONTACT`
+## `06 // CONTACT`
 
 <div align="center">
 
@@ -405,7 +326,7 @@ Good software rewards curiosity. Thanks for inspecting the codebase.
   <img src="https://img.shields.io/badge/GitHub-NINJA981-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 &nbsp;
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/in/sai-charan-9b8143282/">
   <img src="https://img.shields.io/badge/LinkedIn-Sai_Charan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 &nbsp;
