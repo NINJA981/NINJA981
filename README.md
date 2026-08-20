@@ -1,386 +1,462 @@
 <div align="center">
 
-# `NINJA981`
-
-### `BUILD → BREAK → UNDERSTAND → REBUILD`
-
-<a href="#-system-status">SYSTEM</a> ·
-<a href="#-active-systems">PROJECTS</a> ·
-<a href="#-loadout">LOADOUT</a> ·
-<a href="#-field-record">FIELD RECORD</a> ·
-<a href="#-telemetry">TELEMETRY</a> ·
-<a href="#-contact">CONTACT</a>
+<img src="./assets/hero.svg" alt="NINJA981 System Header" width="100%">
 
 <br>
 
-<img src="./assets/header.svg" alt="NINJA981 developer system header" width="900">
+<p align="center">
+  <a href="#01--current-state"><code>// STATE</code></a> &nbsp;·&nbsp;
+  <a href="#02--selected-work"><code>// SELECTED WORK</code></a> &nbsp;·&nbsp;
+  <a href="#03--architecture-topology"><code>// TOPOLOGY</code></a> &nbsp;·&nbsp;
+  <a href="#04--engineering-loadout"><code>// LOADOUT</code></a> &nbsp;·&nbsp;
+  <a href="#05--engineering-principles"><code>// PRINCIPLES</code></a> &nbsp;·&nbsp;
+  <a href="#06--field-record"><code>// FIELD RECORD</code></a> &nbsp;·&nbsp;
+  <a href="#07--build--learn--teach"><code>// COMMUNITY</code></a> &nbsp;·&nbsp;
+  <a href="#08--security-lab"><code>// SECURITY LAB</code></a> &nbsp;·&nbsp;
+  <a href="#09--github-telemetry"><code>// TELEMETRY</code></a> &nbsp;·&nbsp;
+  <a href="#11--contact"><code>// CONTACT</code></a>
+</p>
 
 </div>
 
 ---
 
-## `01 // SYSTEM STATUS`
+### `POSITIONING`
+
+> **Computer Science student building AI systems, backend products, security tools, and experimental software.**
+> 
+> *“I build things to understand how they work. The interesting part of a project is often what happens underneath the interface.”*
+
+---
+
+## `01 // CURRENT STATE`
 
 <table>
 <tr>
-<td width="52%" valign="top">
+<td width="50%" valign="top">
+
+### 📍 Profile Context
+
+- **Name:** Sai Charan
+- **Role:** CSE Student &amp; Software Builder
+- **University:** Sathyabama Institute of Science and Technology
+- **Location:** Chennai, India
+- **Stage:** College student building production-grade software while systematically mastering CS fundamentals.
 
 ```text
-IDENTITY
-────────
-Sai Charan
-Computer Science & Engineering
-
-ROLE
-────
-Student / Builder / Experimenter
-
-CURRENT VECTOR
-──────────────
-AI systems
-Backend engineering
-Security
-System design
-DSA
-
-OPERATING MODE
-─────────────
-BUILDING REAL THINGS
-THEN TAKING THEM APART
-TO UNDERSTAND WHY THEY WORK
+OPERATING VECTOR
+────────────────
+AI Engineering        · Semantic memory & RAG
+Backend Systems       · TypeScript, Node, SQL
+Application Security  · SAST, CTFs & simulations
+Core Fundamentals     · DSA (Java) & System Design
 ```
 
 </td>
-<td width="48%" valign="top">
+<td width="50%" valign="top">
 
-### Current mission
+### ⚡ Active Focus Matrix
 
-I'm interested in the layer between **"it works"** and **"I understand the system."**
+```text
+BUILDING (In Active Development)
+├── Solace Diaries   [Semantic memory & RAG reflection]
+├── CyberArena       [Deterministic AppSec simulation]
+├── RCA-Engine       [SRE microservice failure analysis]
+└── Gridlock         [State orchestration & constraints]
 
-Right now that means:
-
-- building AI products beyond simple API wrappers
-- getting deeper into RAG, embeddings and agent systems
-- learning system design through actual projects
-- strengthening DSA with Java
-- exploring application security and attack paths
+LEARNING (Deepening Fundamentals)
+├── System Design    [API contracts, DB schemas, caching]
+├── Advanced DSA     [Transferring Python base to Java]
+├── AI Engineering   [pgvector, embeddings, agent flows]
+└── App Security     [SAST rule sets & attack vectors]
+```
 
 </td>
 </tr>
 </table>
 
-> **Signal over stack lists. Projects over claims.**
+---
+
+## `02 // SELECTED WORK`
+
+Flagship repositories demonstrating engineering judgment, system architecture, and real execution.
 
 ---
 
-## `02 // ACTIVE SYSTEMS`
+### `01. SOLACE DIARIES` · `ONLINE`
 
-These are the repositories I'd point you to first.
+**An AI journaling platform built around persistent semantic memory and hybrid retrieval.**
 
-### `SOLACE DIARIES` · `ONLINE`
+> Traditional journaling apps are static text archives where past insights get lost. Solace Diaries experiments with persistent semantic memory: transforming multi-modal journal entries into 768-dimensional vector coordinates so users can converse with their past through grounded reflection.
 
-**An AI journaling system built around semantic memory.**
+<p align="center">
+  <img src="./assets/solace-architecture.svg" alt="Solace Diaries System Architecture" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/NINJA981/Solace-Diaries">
+    <img src="https://img.shields.io/badge/inspect_repository-Solace--Diaries-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Solace Diaries Repo">
+  </a>
+</p>
 
 ```text
-JOURNAL
-   │
-   ├── text + images
-   ↓
-EMBEDDING
-   ↓
-SEMANTIC MEMORY
-   ↓
-HYBRID RETRIEVAL
-   ├── vector search
-   ├── metadata / structured signals
-   └── contextual recall
-   ↓
-REFLECTION
+STACK: TypeScript · Node.js · Express · Google Gemini 2.5 Flash · gemini-embedding-2 · PostgreSQL · Supabase · pgvector · Prisma · React 19 · Vite
 ```
 
-**Interesting part:** the goal isn't just "chat with your journal". The system is designed around persistent semantic memory, retrieval and reflection.
-
-`Gemini` `Embeddings` `PostgreSQL` `pgvector` `Prisma` `TypeScript`
-
-→ **[inspect repository](https://github.com/NINJA981/Solace-Diaries)**
-
 <details>
-<summary><kbd>⌁</kbd> open technical notes</summary>
+<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Semantic Memory &amp; pgvector Integration</strong></summary>
+<br>
 
-- Embeddings are stored in PostgreSQL through `pgvector`.
-- Prisma handles the relational layer while vector operations use SQL where required.
-- Retrieval is treated as a system component rather than an afterthought to the UI.
-- The architecture is evolving toward journal + image memory → hybrid retrieval → reflection.
+- **Why `pgvector` over dedicated vector DBs:** Kept relational metadata (dates, mood tags, user auth, image references) and high-dimensional embeddings inside a single transactional PostgreSQL store, avoiding distributed consistency sync issues.
+- **Prisma + Raw SQL Boundary:** Prisma manages relational migrations and typed schemas, while high-performance cosine similarity searches (`<=>` operator) and vector distance queries are executed via raw SQL transactions over indexed vector columns.
+- **Decoupled Intelligence Flow:** Entry payloads pass through `gemini-embedding-2-preview` to generate 768-dimensional coordinates, while `gemini-2.5-flash` extracts emotional nuances and metadata tags concurrently.
+- **Strict Grounding:** Chat prompts are explicitly bounded to retrieved cosine-nearest entry chunks to eliminate hallucination and deliver cited reflections.
 
 </details>
 
 ---
 
-### `CYBERARENA` · `ONLINE`
+### `02. CYBERARENA` · `ONLINE`
 
-**A simulated application-security battlefield.**
+**A simulated application security battlefield with deterministic execution and digital twin topology.**
+
+> CyberArena models a full enterprise network topology (Firewall → Load Balancer → Web Nodes → API Gateway → Auth → Database) and simulates real-time attack/defense sequences. Crucially, the simulation is **100% deterministic**—code and SAST security rules govern the outcome, while AI is used strictly for after-action triage and post-mortems.
+
+<p align="center">
+  <img src="./assets/cyberarena-architecture.svg" alt="CyberArena Simulation Architecture" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/NINJA981/CyberArena">
+    <img src="https://img.shields.io/badge/enter_simulation-CyberArena-f85149?style=flat-square&logo=github&logoColor=white" alt="CyberArena Repo">
+  </a>
+</p>
 
 ```text
-APPLICATION TOPOLOGY
-        ↓
- VIRTUAL NETWORK
-        ↓
- ┌───────────────┐
- │   RED TEAM    │──────→ exploit / lateral movement
- └───────────────┘
-          ↕
- ┌───────────────┐
- │   BLUE TEAM   │←────── detect / contain / recover
- └───────────────┘
-        ↓
-CRS / THREAT / OUTCOME
+STACK: React 19 · TanStack Start · TypeScript · Vite · SAST Scanner · Google Gemini 2.5 Flash · Tailwind CSS v4
 ```
-
-The simulation itself is deterministic. AI is used as an **optional post-simulation referee**, not as the engine deciding what happened.
-
-`React 19` `TanStack Start` `TypeScript` `SAST` `Gemini` `Vite`
-
-→ **[enter CyberArena](https://github.com/NINJA981/CyberArena)**
 
 <details>
-<summary><kbd>⌁</kbd> open technical notes</summary>
+<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Deterministic Engine vs. LLM Hallucination</strong></summary>
+<br>
 
-CyberArena models an application topology and runs scripted attack/defense events against it.
-
-The engine tracks node health, risk, protections, attack progression and resilience metrics. Security rules can affect whether an attack succeeds.
-
-That separation is deliberate:
-
-```text
-CORE SIMULATION = deterministic
-AI REPORTING    = optional
-```
+- **Simulation Core vs. AI Separation:** Security simulations cannot rely on generative model randomness. The simulation loop advances via `requestAnimationFrame`, calculating node health, compromise status, and lateral movement from explicit rule graphs and configuration states.
+- **Arena Workspace &amp; SAST Scanner:** Dynamic workspace scaffolder generates intentional misconfigurations (`arena/{template}/`), which the internal SAST scanner parses (detecting unrestricted ingress `0.0.0.0/0`, exposed SSH, weak secrets) to set base risk indexes.
+- **Post-Mortem AI Referee:** Once the deterministic battle concludes, event telemetry and timeline logs are passed to `gemini-2.5-flash` to synthesize an incident report and actionable remediation recommendations.
 
 </details>
 
 ---
 
-### `GRIDLOCK` · `BUILDING`
+### `03. RCA-ENGINE` · `ONLINE`
 
-**A systems/problem-solving project focused on making complex state manageable.**
+**AI-powered root-cause analysis and incident response dashboard for microservice architectures.**
 
-→ **[open repository](https://github.com/NINJA981/Gridlock)**
+> An SRE incident response tool that visualizes microservice dependencies, monitors real-time telemetry (latency, error rates, CPU/memory saturation), detects cascading failures, and generates natural-language RCA summaries with actionable remediation playbooks.
 
----
+```text
+Service Health Metrics ──→ Dependency Graph ──→ Anomaly Detection ──→ AI RCA Synthesis ──→ Remediation Steps
+```
 
-### `RCA ENGINE` · `ONLINE`
+<p align="center">
+  <a href="https://github.com/NINJA981/RCA-Engine">
+    <img src="https://img.shields.io/badge/inspect_repository-RCA--Engine-e3b341?style=flat-square&logo=github&logoColor=white" alt="RCA-Engine Repo">
+  </a>
+</p>
 
-**Root-cause analysis tooling.**
-
-→ **[open repository](https://github.com/NINJA981/RCA-Engine)**
-
----
+```text
+STACK: Next.js 16 · React 19 · Tailwind CSS 4 · TypeScript 5.7 · Microservice Dependency Graphs · AI Incident Analysis
+```
 
 <details>
-<summary><kbd>+</kbd> more systems</summary>
+<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Dependency Graphs &amp; Incident Triage</strong></summary>
+<br>
 
-**ZooLearn** · [repository](https://github.com/NINJA981/zoolearn)
-
-**Call Centre Hackathon Project** · [repository](https://github.com/NINJA981/Call-centre-Hackathon-project)
-
-**ZeroX** · [repository](https://github.com/NINJA981/ZeroX)
+- **Interactive Topology Graph:** Color-coded service nodes (`green`/healthy, `amber`/degraded, `red`/critical) with dynamic connection flow lines indicating traffic health and failure propagation paths.
+- **Cost of Downtime &amp; Severity Tracking:** Real-time calculation engine with timeline traces and keyboard-driven shortcut navigation (`/` search).
+- **Incident Remediation:** Diagnostic summary identifies primary root causes vs upstream symptoms to reduce Mean Time to Resolution (MTTR).
 
 </details>
 
 ---
 
-## `03 // LOADOUT`
+### `04. GRIDLOCK` · `BUILDING`
+
+**Systems &amp; state engineering project focused on managing complex distributed state and constraints.**
+
+> Investigating how state machines, concurrency controls, and constraint satisfaction algorithms behave when managing complex interconnected components.
+
+<p align="center">
+  <a href="https://github.com/NINJA981/Gridlock">
+    <img src="https://img.shields.io/badge/inspect_repository-Gridlock-3fb950?style=flat-square&logo=github&logoColor=white" alt="Gridlock Repo">
+  </a>
+</p>
+
+```text
+FOCUS: Distributed State Management · State Machine Modeling · Concurrency Controls · System Reliability
+```
+
+---
+
+### `05. ADDITIONAL SYSTEMS &amp; EXPERIMENTS`
+
+<details>
+<summary><kbd>+</kbd> <strong>Expand Archive Repositories</strong></summary>
+<br>
+
+| Project | Domain | Key Architecture &amp; Tech | Repository |
+|:---|:---|:---|:---:|
+| **EQUUS / ZooLearn** | Interactive Simulation &amp; AI Vision | 55M-year evolutionary natural selection sandbox (*GenEquus*), AI Paleontologist Desk with canvas sketchpad analysis via **Gemini 2.5 Flash**, and geological excavation stratum grid. | [View Repo](https://github.com/NINJA981/zoolearn) |
+| **VocalPulse (Call-Centre Engine)** | AI Speech &amp; Sales Telemetry | AI-powered dialer &amp; tracking system: multi-tenant lead management, Twilio VoIP / mobile SIM tracking, Whisper speech-to-text, and GPT-4o conversation intelligence. | [View Repo](https://github.com/NINJA981/Call-centre-Hackathon-project) |
+| **ZeroX** | Developer Tooling &amp; Experiments | Experimental software utilities and research codebase. | [View Repo](https://github.com/NINJA981/ZeroX) |
+
+</details>
+
+---
+
+## `03 // ARCHITECTURE TOPOLOGY`
+
+How active repositories map across paradigms and infrastructure layers:
+
+<p align="center">
+  <img src="./assets/project-map.svg" alt="Project Architecture Topology Map" width="100%">
+</p>
+
+---
+
+## `04 // ENGINEERING LOADOUT`
+
+Organized strictly by active implementation experience:
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### LANGUAGES
-
-`TypeScript`  
-`JavaScript`  
-`Java`  
-`Python`  
-`C`
-
-</td>
-<td valign="top" width="33%">
-
-### BUILD
-
-`React`  
-`Node.js`  
-`Express`  
-`PostgreSQL`  
-`Prisma`  
-`Tailwind`
+### 💻 Languages
+- **TypeScript** *(Primary)*
+- **JavaScript**
+- **Java** *(DSA focus)*
+- **Python**
+- **C**
 
 </td>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### AI / DATA
+### ⚙️ Backend &amp; Data
+- **Node.js** · **Express**
+- **PostgreSQL** · **pgvector**
+- **Supabase** · **Prisma ORM**
+- **REST APIs** · Database Design
+- Raw SQL Vector Operations
 
-`RAG`  
-`Embeddings`  
-`Vector Search`  
-`LLM APIs`  
-`pgvector`  
-`Agent systems`
+</td>
+<td width="33%" valign="top">
+
+### 🧠 AI &amp; Retrieval
+- **Google Gemini** *(2.5 Flash)*
+- **Gemini Embeddings** *(768d)*
+- **RAG &amp; Hybrid Search**
+- Semantic Memory Maps
+- AI Agent Workflows
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🎨 Frontend
+- **React 19** · **React 18**
+- **Next.js 16** · **TanStack**
+- **Tailwind CSS** *(v3 &amp; v4)*
+- **Vite** · HTML5 / Canvas
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Security Lab
+- **SAST Rule Evaluation**
+- **Burp Suite** · **CTFs (picoCTF)**
+- Web Vulnerability Analysis
+- Attack Path Simulation
+- Web Security Academy
+
+</td>
+<td width="33%" valign="top">
+
+### 🛠️ Toolchain
+- **Git** · **GitHub**
+- **VS Code** · **Linux**
+- **Vercel** · **Render** · **Netlify**
+- **Postman** · **npm / bun**
 
 </td>
 </tr>
 </table>
 
-### Toolchain
-
-`Git` · `GitHub` · `Supabase` · `Vercel` · `Render` · `VS Code` · `Linux`
-
 ---
 
-## `04 // LEARNING TREE`
+## `05 // ENGINEERING PRINCIPLES`
+
+Core rules governing how I approach software design and problem solving:
 
 ```text
-COMPUTER SCIENCE
-│
-├── DSA
-│   ├── Arrays / Hashing
-│   ├── Sliding Window
-│   ├── Binary Search
-│   ├── Trees
-│   └── Graphs
-│
-├── SYSTEM DESIGN
-│   ├── APIs
-│   ├── Databases
-│   ├── Caching
-│   ├── Scalability
-│   └── Distributed Systems
-│
-├── AI SYSTEMS
-│   ├── Embeddings
-│   ├── RAG
-│   ├── Retrieval
-│   ├── Agents
-│   └── Evaluation
-│
-└── SECURITY
-    ├── Web Security
-    ├── CTFs
-    ├── SAST
-    └── Attack Paths
-```
+01 // BUILD OVER TUTORIAL CONSUMPTION
+The fastest path to deep comprehension is building real systems from scratch rather than passively watching walkthroughs.
 
-**Current target:** move from knowing how to use systems to understanding how to design them.
+02 // UNDERSTAND UNDERNEATH THE ABSTRACTION
+If I use an ORM, framework, or library, I want to know how the raw SQL, runtime loop, or network socket functions beneath it.
 
----
+03 // AI ACCELERATES ENGINEERING, NOT UNDERSTANDING
+Use AI to eliminate boilerplate and assist analysis, never as a substitute for knowing your system's fundamental mechanics.
 
-## `05 // FIELD RECORD`
+04 // PROJECTS ARE EXPERIMENTS FOR LEARNING SYSTEMS
+Every repository is a controlled laboratory for testing architectural patterns, data structures, and edge cases.
 
-```text
-2026
-│
-├── 🥇  Hack the Vibe
-│    1st place
-│
-├── 🥇  Code in the Dark
-│    1st place
-│
-├── 🏆  VIT Hackcrate
-│    Top 5
-│
-├── 🏅  Luminary Award
-│    All-Rounder Excellence
-│
-└── 🎤  Technical workshops / community events
-     building + teaching around developer tooling
-```
-
-No participation trophies in the telemetry.
-
----
-
-## `06 // TERMINAL`
-
-```text
-$ whoami
-NINJA981
-
-$ current_mission
-Build systems worth understanding.
-
-$ strongest_signal
-shipping > talking
-
-$ next_target
-system design
-
-$ side_quest
-break things in controlled environments
-
-$ status
-LEARNING / BUILDING / SHIPPING
+05 // EMBRACE FAILURE AS TELEMETRY
+When code breaks or a simulation crashes, the failure provides the highest-signal insight into how the system really works.
 ```
 
 ---
 
-## `07 // TELEMETRY`
+## `06 // FIELD RECORD &amp; RECOGNITION`
+
+Verified track record across competitive technical hackathons and academic awards:
+
+<table>
+<tr>
+<td width="25%" align="center">
+<h3>🥇</h3>
+<strong>1st Place</strong><br>
+<sub>Hack the Vibe</sub>
+</td>
+<td width="25%" align="center">
+<h3>🥇</h3>
+<strong>1st Place</strong><br>
+<sub>Code in the Dark</sub>
+</td>
+<td width="25%" align="center">
+<h3>🏆</h3>
+<strong>Top 5 Finalist</strong><br>
+<sub>VIT Hackcrate</sub>
+</td>
+<td width="25%" align="center">
+<h3>🏅</h3>
+<strong>Luminary Award</strong><br>
+<sub>All-Rounder Excellence</sub><br>
+<small><em>Selected as sole 1st-year student</em></small>
+</td>
+</tr>
+</table>
+
+---
+
+## `07 // BUILD · LEARN · TEACH`
+
+Sharing knowledge and facilitating developer workshops in technical communities:
+
+- **WebXplore Workshop (150+ Attendees):** Served as technical resource person for Day 4 of an intensive 4-day web engineering workshop covering HTML, CSS, Git version control, Netlify deployments, and AI developer tools.
+- **AI &amp; Developer Tooling Sessions:** Hands-on community workshops on modern AI workflow orchestration, LangChain/LangGraph pipelines, and automation tooling.
+
+---
+
+## `08 // SECURITY LAB`
+
+Security is a primary vector of study and experimentation. Active exploration areas:
+
+```text
+APPSEC PRACTICES & VULNERABILITY MODELING
+├── SAST Rule Development      [Automated configuration & code scanners]
+├── Web Vulnerabilities        [SQLi, XSS, CSRF, IDOR, SSRF, Command Injection]
+├── Protocol & Parser Flaws    [LFI, Prototype Pollution, Race Conditions]
+├── Hands-on Labs & CTFs       [picoCTF, PortSwigger Web Security Academy]
+└── Tooling                    [Burp Suite, Static Analyzers, Network Twins]
+```
+
+> *Note: Studying application security and attack paths to build more resilient software architecture, practicing in controlled labs and simulations.*
+
+---
+
+## `09 // COMPUTER SCIENCE &amp; DSA VECTORS`
+
+<p align="center">
+  <img src="./assets/learning-map.svg" alt="CS Learning Graph" width="100%">
+</p>
+
+### ☕ The Java DSA Transition
+Having developed an algorithmic problem-solving foundation in Python, I am currently transferring that knowledge to **Java** to gain deeper familiarity with static typing, memory models, and Java collections:
+- **Core Primitives &amp; Structures:** Arrays, Strings, `char`/`Character`, `int`/`Integer`
+- **Collections &amp; Abstract Data Types:** `ArrayList`, `HashMap`, `HashSet`, `Stack`, `Queue`, `PriorityQueue`
+- **Algorithmic Patterns:** Two Pointers, Sliding Window, Binary Search, Graph BFS/DFS, Dynamic Programming
+
+---
+
+## `10 // GITHUB TELEMETRY`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NINJA981&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&rank_icon=github" alt="NINJA981 GitHub statistics" width="490">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NINJA981&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF" alt="NINJA981 top languages" width="350">
+<img src="https://github-readme-stats.vercel.app/api?username=NINJA981&show_icons=true&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8&rank_icon=github" alt="NINJA981 GitHub Stats" width="48%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NINJA981&layout=compact&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8" alt="NINJA981 Top Languages" width="48%">
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NINJA981&bg_color=00000000&color=8B949E&line=58A6FF&point=FFFFFF&area=true&hide_border=true" alt="NINJA981 contribution activity" width="900">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NINJA981&bg_color=00000000&color=8B949E&line=38BDF8&point=FFFFFF&area=true&hide_border=true" alt="NINJA981 Activity Graph" width="98%">
+
+<br>
+<sub><em>Telemetry reflects public GitHub activity. Real evidence is in the repositories and code commits.</em></sub>
 
 </div>
 
-<sub>Telemetry is deliberately kept secondary. The repositories are the evidence.</sub>
-
 ---
 
-## `08 // DEBUG MODE`
+## `11 // INVESTIGATION`
 
 <details>
-<summary><kbd>↑ ↑ ↓ ↓ ← → ← → B A</kbd> &nbsp; execute</summary>
+<summary><kbd>🔍</kbd> <code>$ ./ninja981 --inspect-system</code></summary>
 
 ```text
-DEBUG MODE
-──────────
+[EXEC] Querying system diagnostics...
+[STATUS] 200 OK
 
-If you found this section, you explored farther than most.
+┌────────────────────────────────────────────────────────┐
+│  NINJA981 SYSTEM DIAGNOSTICS                           │
+├────────────────────────────────────────────────────────┤
+│  Subject       : Sai Charan                            │
+│  Coordinates   : 13.0827° N, 80.2707° E (Chennai, IN)  │
+│  Institution   : Sathyabama Institute of Sci & Tech    │
+│  Focus         : AI Systems · Backend · Security       │
+│  Philosophy    : Build → Break → Understand → Rebuild  │
+│  Signal Check  : Code > Talk                           │
+└────────────────────────────────────────────────────────┘
 
-There isn't a secret project here.
-
-The point was the interface.
-
-Good software should reward curiosity.
+Good software rewards curiosity. Thanks for inspecting the codebase.
 ```
 
 </details>
 
 ---
 
-## `09 // CONTACT`
+## `12 // CONTACT`
 
 <div align="center">
 
-**Want to build, break, test or discuss something?**
-
-[GitHub](https://github.com/NINJA981) ·
-[LinkedIn](https://www.linkedin.com/) ·
-[Portfolio](#)
+**Interested in collaborating on AI systems, backend architecture, security simulations, or hackathons?**
 
 <br>
 
-```text
-SYSTEM STATUS
-████████████████████████████████  ONLINE
+<a href="https://github.com/NINJA981">
+  <img src="https://img.shields.io/badge/GitHub-NINJA981-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/">
+  <img src="https://img.shields.io/badge/LinkedIn-Sai_Charan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+&nbsp;
+<a href="mailto:contact@ninja981.dev">
+  <img src="https://img.shields.io/badge/Email-Get_in_Touch-38bdf8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
-SESSION END
-───────────
-the build continues.
-```
+<br><br>
+
+<img src="./assets/footer.svg" alt="System Persistence Footer" width="100%">
 
 </div>

@@ -1,0 +1,38 @@
+<svg width="100%" height="auto" viewBox="0 0 960 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#070a0f" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="960" height="140" rx="10" fill="url(#footerBg)" />
+  <rect x="0.5" y="0.5" width="959" height="139" rx="9.5" fill="none" stroke="#21262d" />
+  <rect x="0" y="0" width="960" height="2" rx="1" fill="url(#accentLine)" />
+
+  <!-- Content Group -->
+  <g transform="translate(32, 28)">
+    <!-- Top line status -->
+    <circle cx="4" cy="6" r="3.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="10" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="0.12em">SYSTEM PERSISTENCE // ACTIVE TELEMETRY</text>
+    <text x="720" y="10" fill="#6e7681" font-family="ui-monospace, monospace" font-size="10" letter-spacing="0.08em">ID: NINJA981 // IND</text>
+
+    <!-- Center Quote -->
+    <text x="0" y="44" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="500">
+      "The interesting part of a project is often what happens underneath the interface."
+    </text>
+
+    <!-- Bottom metadata line -->
+    <text x="0" y="74" fill="#8b949e" font-family="ui-monospace, monospace" font-size="10.5">
+      BUILD → BREAK → UNDERSTAND → REBUILD  ·  CHENNAI, INDIA  ·  SATHYABAMA CSE
+    </text>
+  </g>
+</svg>

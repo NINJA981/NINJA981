@@ -1,11 +1,24 @@
-# NINJA981 profile README setup
+# NINJA981 Profile Repository
 
-1. Create or open the repository `NINJA981/NINJA981`.
-2. Replace its `README.md` with the supplied `README.md`.
-3. Upload the `assets/header.svg` file into an `assets/` folder in the same repository.
-4. Replace the LinkedIn and Portfolio placeholders in `README.md` with the real URLs.
-5. The GitHub stats/activity images are external dynamic SVG endpoints. If one becomes unavailable, remove that image rather than adding another stats widget.
-6. Keep the project descriptions grounded in what the repositories actually do.
-7. Update `CURRENT MISSION`, `ACTIVE SYSTEMS`, and `FIELD RECORD` when your focus changes.
+This repository powers the primary GitHub profile README for **Sai Charan (`NINJA981`)**.
 
-The README is intentionally GitHub-compatible: no custom CSS or JavaScript is required.
+## Repository Structure
+
+```text
+.
+├── assets/
+│   ├── hero.svg                      # Profile header banner
+│   ├── project-map.svg               # Multi-discipline architecture topology map
+│   ├── solace-architecture.svg       # Solace Diaries semantic memory pipeline diagram
+│   ├── cyberarena-architecture.svg   # CyberArena deterministic engine vs AI referee diagram
+│   ├── learning-map.svg              # Computer science & systems knowledge tree
+│   └── footer.svg                    # Telemetry footer banner
+├── README.md                         # Master profile markdown
+└── SETUP.md                          # Repository maintenance guide
+```
+
+## Maintenance & Updating
+
+1. **SVG Assets:** All diagrams in `assets/` are self-contained SVGs designed with GitHub-native dark theme palettes (`#0d1117`, `#161b22`, `#30363d`, with `#38bdf8` cobalt accent).
+2. **Project Links:** When releasing new versions or updating repositories, ensure repository URLs (`Solace-Diaries`, `CyberArena`, `RCA-Engine`, `Gridlock`) reflect active repositories.
+3. **Telemetry:** Stats widgets leverage dynamic SVG badges configured to match the `#38BDF8` accent color.

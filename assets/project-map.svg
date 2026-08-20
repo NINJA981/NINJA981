@@ -1,0 +1,134 @@
+<svg width="100%" height="auto" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17" />
+      <stop offset="100%" stop-color="#080c12" />
+    </linearGradient>
+    <pattern id="mapGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" fill-opacity="0.35" />
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="360" rx="12" fill="url(#mapBg)" />
+  <rect width="960" height="360" rx="12" fill="url(#mapGrid)" />
+  <rect x="0.5" y="0.5" width="959" height="359" rx="11.5" fill="none" stroke="#21262d" />
+
+  <!-- Section Header -->
+  <g transform="translate(30, 24)">
+    <text x="0" y="12" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="0.14em">ENGINEERING TOPOLOGY // SYSTEM ARCHITECTURE MAP</text>
+    <text x="0" y="30" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Cross-domain relationship between repositories, runtime layers, and engineering primitives.</text>
+  </g>
+
+  <!-- Central Interconnect Bus -->
+  <!-- Horizontal & Vertical Bus Lines -->
+  <path d="M 240 130 L 480 130 L 720 130" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M 240 270 L 480 270 L 720 270" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M 240 130 L 240 270" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M 720 130 L 720 270" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4" />
+  <path d="M 480 130 L 480 270" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5" />
+
+  <!-- Central Shared Foundation Node -->
+  <g transform="translate(370, 180)">
+    <rect x="0" y="0" width="220" height="40" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="16" cy="20" r="4" fill="#38bdf8" />
+    <text x="28" y="18" fill="#f0f6fc" font-family="ui-monospace, monospace" font-size="11" font-weight="700">TypeScript · Node · SQL</text>
+    <text x="28" y="30" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9.5">PostgreSQL · Prisma · Supabase Core</text>
+  </g>
+
+  <!-- 01. NODE 1: SOLACE DIARIES (Top Left: AI & Semantic Systems) -->
+  <g transform="translate(40, 70)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="300" height="110" rx="8" fill="#0d1117" stroke="#38bdf8" stroke-width="1.2" />
+    <!-- Domain Tag -->
+    <rect x="12" y="10" width="135" height="18" rx="3" fill="#1f293d" />
+    <text x="18" y="23" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="9.5" font-weight="700">AI &amp; SEMANTIC MEMORY</text>
+    
+    <text x="12" y="48" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">Solace Diaries</text>
+    <text x="12" y="66" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5">Persistent semantic memory &amp; RAG reflection</text>
+    
+    <!-- Pills -->
+    <g transform="translate(12, 80)">
+      <rect x="0" y="0" width="62" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="6" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">pgvector</text>
+      
+      <rect x="68" y="0" width="58" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="74" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Gemini</text>
+      
+      <rect x="132" y="0" width="86" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="138" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Hybrid Recall</text>
+    </g>
+  </g>
+
+  <!-- 02. NODE 2: CYBERARENA (Top Right: Security & Attack Simulations) -->
+  <g transform="translate(620, 70)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="300" height="110" rx="8" fill="#0d1117" stroke="#f85149" stroke-width="1.2" stroke-opacity="0.8" />
+    <!-- Domain Tag -->
+    <rect x="12" y="10" width="138" height="18" rx="3" fill="#2d1a1f" />
+    <text x="18" y="23" fill="#f85149" font-family="ui-monospace, monospace" font-size="9.5" font-weight="700">APPSEC &amp; SIMULATION</text>
+    
+    <text x="12" y="48" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">CyberArena</text>
+    <text x="12" y="66" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5">Deterministic topology twin &amp; SAST rules</text>
+    
+    <!-- Pills -->
+    <g transform="translate(12, 80)">
+      <rect x="0" y="0" width="82" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="6" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">TanStack Start</text>
+      
+      <rect x="88" y="0" width="80" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="94" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">SAST Rules</text>
+      
+      <rect x="174" y="0" width="76" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="180" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">AI Referee</text>
+    </g>
+  </g>
+
+  <!-- 03. NODE 3: RCA ENGINE (Bottom Left: SRE & Observability) -->
+  <g transform="translate(40, 220)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="300" height="110" rx="8" fill="#0d1117" stroke="#e3b341" stroke-width="1.2" stroke-opacity="0.8" />
+    <!-- Domain Tag -->
+    <rect x="12" y="10" width="138" height="18" rx="3" fill="#2d2417" />
+    <text x="18" y="23" fill="#e3b341" font-family="ui-monospace, monospace" font-size="9.5" font-weight="700">SRE &amp; OBSERVABILITY</text>
+    
+    <text x="12" y="48" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">RCA-Engine</text>
+    <text x="12" y="66" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5">Microservice failure graph &amp; incident triage</text>
+    
+    <!-- Pills -->
+    <g transform="translate(12, 80)">
+      <rect x="0" y="0" width="62" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="6" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Next.js 16</text>
+      
+      <rect x="68" y="0" width="62" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="74" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">React 19</text>
+      
+      <rect x="136" y="0" width="86" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="142" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Service Mesh</text>
+    </g>
+  </g>
+
+  <!-- 04. NODE 4: GRIDLOCK (Bottom Right: Systems & Distributed State) -->
+  <g transform="translate(620, 220)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="300" height="110" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="1.2" stroke-opacity="0.8" />
+    <!-- Domain Tag -->
+    <rect x="12" y="10" width="148" height="18" rx="3" fill="#172b1d" />
+    <text x="18" y="23" fill="#3fb950" font-family="ui-monospace, monospace" font-size="9.5" font-weight="700">SYSTEMS &amp; STATE ENGINE</text>
+    
+    <text x="12" y="48" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">Gridlock</text>
+    <text x="12" y="66" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11.5">Complex state control &amp; concurrency modeling</text>
+    
+    <!-- Pills -->
+    <g transform="translate(12, 80)">
+      <rect x="0" y="0" width="82" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="6" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">State Graphs</text>
+      
+      <rect x="88" y="0" width="76" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="94" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Constraints</text>
+      
+      <rect x="170" y="0" width="84" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="176" y="13" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="9.5">Architecture</text>
+    </g>
+  </g>
+
+</svg>

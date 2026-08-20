@@ -1,0 +1,120 @@
+<svg width="100%" height="auto" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="solaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 0 0 L 8 4 L 0 8 Z" fill="#38bdf8" />
+    </marker>
+    <marker id="arrowMuted" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 0 0 L 8 4 L 0 8 Z" fill="#4b5563" />
+    </marker>
+  </defs>
+
+  <!-- Canvas Box -->
+  <rect width="960" height="360" rx="12" fill="url(#solaceBg)" />
+  <rect x="0.5" y="0.5" width="959" height="359" rx="11.5" fill="none" stroke="#30363d" />
+
+  <!-- Diagram Title -->
+  <g transform="translate(32, 24)">
+    <text x="0" y="10" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="0.14em">SOLACE DIARIES // PERSISTENT SEMANTIC MEMORY &amp; HYBRID RETRIEVAL PIPELINE</text>
+    <text x="0" y="28" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Decoupled memory ingestion, vector embedding, similarity indexing, and grounded reflection synthesis.</text>
+  </g>
+
+  <!-- Flow 1: INGESTION & ENCODING (Top Lane) -->
+  <g transform="translate(32, 65)">
+    <!-- Group Container -->
+    <rect x="0" y="0" width="896" height="125" rx="8" fill="#111622" stroke="#21262d" stroke-width="1" />
+    <text x="16" y="22" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="0.08em">STAGE 01: MULTIMODAL INGESTION &amp; VECTORIZATION</text>
+
+    <!-- Node 1: Entry Input -->
+    <g transform="translate(20, 36)">
+      <rect x="0" y="0" width="165" height="72" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Journal Entry</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">+ Image Assets (multer)</text>
+      <text x="12" y="54" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="9.5">React 19 / Vite</text>
+    </g>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 190 72 L 235 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 2: Express Server / Controller -->
+    <g transform="translate(245, 36)">
+      <rect x="0" y="0" width="165" height="72" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Backend API</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">Payload chunking &amp; sanitization</text>
+      <text x="12" y="54" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="9.5">Node.js · Express · TS</text>
+    </g>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 415 72 L 460 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 3: Gemini Embeddings -->
+    <g transform="translate(470, 36)">
+      <rect x="0" y="0" width="180" height="72" rx="6" fill="#161b22" stroke="#818cf8" stroke-width="1.2" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Google Gemini AI</text>
+      <text x="12" y="38" fill="#c9d1d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">gemini-embedding-2 (768d)</text>
+      <text x="12" y="54" fill="#818cf8" font-family="ui-monospace, monospace" font-size="9.5">gemini-2.5-flash (Mood/Tags)</text>
+    </g>
+
+    <!-- Arrow 3 -> 4 -->
+    <path d="M 655 72 L 700 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 4: PostgreSQL + pgvector -->
+    <g transform="translate(710, 36)">
+      <rect x="0" y="0" width="165" height="72" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1.2" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Storage Layer</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">Prisma (Relational) +</text>
+      <text x="12" y="54" fill="#3fb950" font-family="ui-monospace, monospace" font-size="9.5">pgvector (Raw SQL Vector)</text>
+    </g>
+  </g>
+
+  <!-- Flow 2: RETRIEVAL & GROUNDED REFLECTION (Bottom Lane) -->
+  <g transform="translate(32, 205)">
+    <!-- Group Container -->
+    <rect x="0" y="0" width="896" height="125" rx="8" fill="#111622" stroke="#21262d" stroke-width="1" />
+    <text x="16" y="22" fill="#34d399" font-family="ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="0.08em">STAGE 02: SEMANTIC RECALL &amp; REFLECTION SYNTHESIS</text>
+
+    <!-- Node 1: Reflection Question -->
+    <g transform="translate(20, 36)">
+      <rect x="0" y="0" width="165" height="72" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Reflection Query</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">"What caused my stress?"</text>
+      <text x="12" y="54" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="9.5">Interactive Chat Prompt</text>
+    </g>
+
+    <!-- Arrow 1 -> 2 -->
+    <path d="M 190 72 L 235 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 2: Cosine Similarity Engine -->
+    <g transform="translate(245, 36)">
+      <rect x="0" y="0" width="185" height="72" rx="6" fill="#161b22" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Hybrid Retrieval</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">Cosine distance &lt;=&gt; operator</text>
+      <text x="12" y="54" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="9.5">Temporal + Vector filter</text>
+    </g>
+
+    <!-- Arrow 2 -> 3 -->
+    <path d="M 435 72 L 480 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 3: Grounded Context Augmentation -->
+    <g transform="translate(490, 36)">
+      <rect x="0" y="0" width="185" height="72" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Context Binding</text>
+      <text x="12" y="38" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">Augment system prompt</text>
+      <text x="12" y="54" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="9.5">Strict factual bounding</text>
+    </g>
+
+    <!-- Arrow 3 -> 4 -->
+    <path d="M 680 72 L 725 72" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Node 4: Synthesis & Output -->
+    <g transform="translate(735, 36)">
+      <rect x="0" y="0" width="140" height="72" rx="6" fill="#161b22" stroke="#818cf8" stroke-width="1.2" />
+      <text x="12" y="22" fill="#ffffff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">Reflection</text>
+      <text x="12" y="38" fill="#c9d1d9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10.5">Empathetic output</text>
+      <text x="12" y="54" fill="#818cf8" font-family="ui-monospace, monospace" font-size="9.5">Grounded Insights</text>
+    </g>
+  </g>
+</svg>

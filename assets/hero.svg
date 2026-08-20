@@ -1,0 +1,96 @@
+<svg width="100%" height="auto" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#070a0f" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.3" />
+      <circle cx="24" cy="24" r="0.75" fill="#58a6ff" fill-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="960" height="260" rx="14" fill="url(#heroBg)" />
+  <rect width="960" height="260" rx="14" fill="url(#gridPattern)" />
+  <rect x="0.5" y="0.5" width="959" height="259" rx="13.5" fill="none" stroke="#30363d" stroke-width="1" />
+  
+  <!-- Subtle ambient glow top right -->
+  <circle cx="850" cy="70" r="140" fill="url(#glowGrad)" />
+
+  <!-- Top System Bar -->
+  <line x1="24" y1="48" x2="936" y2="48" stroke="#21262d" stroke-width="1" />
+
+  <!-- Terminal / System Status Pill -->
+  <g transform="translate(32, 22)">
+    <circle cx="4" cy="4" r="3.5" fill="#f85149" />
+    <circle cx="16" cy="4" r="3.5" fill="#d29922" />
+    <circle cx="28" cy="4" r="3.5" fill="#3fb950" />
+    <text x="44" y="8" fill="#8b949e" font-family="ui-monospace, monospace" font-size="11" font-weight="600" letter-spacing="0.08em">SYS:ONLINE // SYS.ID: NINJA981 // CHENNAI, IN</text>
+  </g>
+
+  <!-- Top Right Badges -->
+  <g transform="translate(740, 18)">
+    <rect x="0" y="0" width="186" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <circle cx="10" cy="10" r="3" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="14" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="10" font-weight="500" letter-spacing="0.05em">SATHYABAMA · CSE</text>
+  </g>
+
+  <!-- Left Header Content -->
+  <g transform="translate(40, 80)">
+    <!-- Subtitle / Tag -->
+    <text x="0" y="2" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="0.18em">COMPUTER SCIENCE &amp; ENGINEERING</text>
+    
+    <!-- Main Handle / Name -->
+    <text x="0" y="44" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.02em">Sai Charan <tspan fill="url(#accentGrad)" font-size="28" font-weight="700" font-family="ui-monospace, monospace">(@NINJA981)</tspan></text>
+    
+    <!-- Core Philosophy -->
+    <g transform="translate(0, 68)">
+      <rect x="0" y="0" width="410" height="26" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="12" y="17" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" letter-spacing="0.06em">BUILD → BREAK → UNDERSTAND → REBUILD</text>
+    </g>
+
+    <!-- Positioning summary -->
+    <text x="0" y="122" fill="#8b949e" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      Building AI systems, backend products, application security tools &amp; experimental software.
+    </text>
+  </g>
+
+  <!-- Right Visual / Radar Target Diagram -->
+  <g transform="translate(820, 150)">
+    <!-- Concentric radar circles -->
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#21262d" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#30363d" stroke-width="1.2" stroke-dasharray="4 4" />
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="5" fill="#38bdf8" />
+    
+    <!-- Crosshairs -->
+    <line x1="-72" y1="0" x2="-52" y2="0" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="52" y1="0" x2="72" y2="0" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="0" y1="-72" x2="0" y2="-52" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="0" y1="52" x2="0" y2="72" stroke="#38bdf8" stroke-width="1.5" />
+
+    <!-- Orbiting nodes -->
+    <circle cx="31" cy="-31" r="3" fill="#818cf8" />
+    <circle cx="-35" cy="24" r="2.5" fill="#34d399" />
+    
+    <!-- Corner text badges -->
+    <text x="-70" y="80" fill="#6e7681" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" letter-spacing="0.08em">EXP.VECT</text>
+    <text x="70" y="80" fill="#6e7681" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" letter-spacing="0.08em">L3_SYS</text>
+  </g>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="0" y="257" width="960" height="3" rx="1.5" fill="url(#accentGrad)" />
+</svg>
