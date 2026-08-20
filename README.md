@@ -95,9 +95,7 @@ Flagship repositories demonstrating engineering judgment, system architecture, a
   </a>
 </p>
 
-```text
-STACK: TypeScript · Node.js · Express · Google Gemini 2.5 Flash · gemini-embedding-2 · PostgreSQL · Supabase · pgvector · Prisma · React 19 · Vite
-```
+**`STACK:`** `TypeScript` · `Node.js` · `Express` · `Google Gemini 2.5 Flash` · `gemini-embedding-2` · `PostgreSQL` · `Supabase` · `pgvector` · `Prisma` · `React 19` · `Vite`
 
 <details>
 <summary><kbd>▶</kbd> <strong>Deep Technical Notes: Semantic Memory &amp; pgvector Integration</strong></summary>
@@ -128,9 +126,7 @@ STACK: TypeScript · Node.js · Express · Google Gemini 2.5 Flash · gemini-emb
   </a>
 </p>
 
-```text
-STACK: React 19 · TanStack Start · TypeScript · Vite · SAST Scanner · Google Gemini 2.5 Flash · Tailwind CSS v4
-```
+**`STACK:`** `React 19` · `TanStack Start` · `TypeScript` · `Vite` · `SAST Scanner` · `Google Gemini 2.5 Flash` · `Tailwind CSS v4`
 
 <details>
 <summary><kbd>▶</kbd> <strong>Deep Technical Notes: Deterministic Engine vs. LLM Hallucination</strong></summary>
@@ -150,9 +146,7 @@ STACK: React 19 · TanStack Start · TypeScript · Vite · SAST Scanner · Googl
 
 > An SRE incident response tool that visualizes microservice dependencies, monitors real-time telemetry (latency, error rates, CPU/memory saturation), detects cascading failures, and generates natural-language RCA summaries with actionable remediation playbooks.
 
-```text
-Service Health Metrics ──→ Dependency Graph ──→ Anomaly Detection ──→ AI RCA Synthesis ──→ Remediation Steps
-```
+`Service Health Metrics` ──→ `Dependency Graph` ──→ `Anomaly Detection` ──→ `AI RCA Synthesis` ──→ `Remediation Steps`
 
 <p align="center">
   <a href="https://github.com/NINJA981/RCA-Engine">
@@ -160,9 +154,7 @@ Service Health Metrics ──→ Dependency Graph ──→ Anomaly Detection �
   </a>
 </p>
 
-```text
-STACK: Next.js 16 · React 19 · Tailwind CSS 4 · TypeScript 5.7 · Microservice Dependency Graphs · AI Incident Analysis
-```
+**`STACK:`** `Next.js 16` · `React 19` · `Tailwind CSS 4` · `TypeScript 5.7` · `Microservice Dependency Graphs` · `AI Incident Analysis`
 
 <details>
 <summary><kbd>▶</kbd> <strong>Deep Technical Notes: Dependency Graphs &amp; Incident Triage</strong></summary>
@@ -188,9 +180,7 @@ STACK: Next.js 16 · React 19 · Tailwind CSS 4 · TypeScript 5.7 · Microservic
   </a>
 </p>
 
-```text
-FOCUS: Distributed State Management · State Machine Modeling · Concurrency Controls · System Reliability
-```
+**`FOCUS:`** `Distributed State Management` · `State Machine Modeling` · `Concurrency Controls` · `System Reliability`
 
 ---
 
