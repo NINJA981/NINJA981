@@ -10,11 +10,10 @@
   <a href="#03--architecture-topology"><code>// TOPOLOGY</code></a> &nbsp;·&nbsp;
   <a href="#04--engineering-loadout"><code>// LOADOUT</code></a> &nbsp;·&nbsp;
   <a href="#05--engineering-principles"><code>// PRINCIPLES</code></a> &nbsp;·&nbsp;
-  <a href="#06--field-record"><code>// FIELD RECORD</code></a> &nbsp;·&nbsp;
-  <a href="#07--build--learn--teach"><code>// COMMUNITY</code></a> &nbsp;·&nbsp;
-  <a href="#08--security-lab"><code>// SECURITY LAB</code></a> &nbsp;·&nbsp;
-  <a href="#09--github-telemetry"><code>// TELEMETRY</code></a> &nbsp;·&nbsp;
-  <a href="#11--contact"><code>// CONTACT</code></a>
+  <a href="#06--security-lab"><code>// SECURITY LAB</code></a> &nbsp;·&nbsp;
+  <a href="#07--computer-science--dsa-vectors"><code>// CS &amp; DSA</code></a> &nbsp;·&nbsp;
+  <a href="#08--github-telemetry"><code>// TELEMETRY</code></a> &nbsp;·&nbsp;
+  <a href="#10--contact"><code>// CONTACT</code></a>
 </p>
 
 </div>
@@ -318,48 +317,7 @@ When code breaks or a simulation crashes, the failure provides the highest-signa
 
 ---
 
-## `06 // FIELD RECORD &amp; RECOGNITION`
-
-Verified track record across competitive technical hackathons and academic awards:
-
-<table>
-<tr>
-<td width="25%" align="center">
-<h3>🥇</h3>
-<strong>1st Place</strong><br>
-<sub>Hack the Vibe</sub>
-</td>
-<td width="25%" align="center">
-<h3>🥇</h3>
-<strong>1st Place</strong><br>
-<sub>Code in the Dark</sub>
-</td>
-<td width="25%" align="center">
-<h3>🏆</h3>
-<strong>Top 5 Finalist</strong><br>
-<sub>VIT Hackcrate</sub>
-</td>
-<td width="25%" align="center">
-<h3>🏅</h3>
-<strong>Luminary Award</strong><br>
-<sub>All-Rounder Excellence</sub><br>
-<small><em>Selected as sole 1st-year student</em></small>
-</td>
-</tr>
-</table>
-
----
-
-## `07 // BUILD · LEARN · TEACH`
-
-Sharing knowledge and facilitating developer workshops in technical communities:
-
-- **WebXplore Workshop (150+ Attendees):** Served as technical resource person for Day 4 of an intensive 4-day web engineering workshop covering HTML, CSS, Git version control, Netlify deployments, and AI developer tools.
-- **AI &amp; Developer Tooling Sessions:** Hands-on community workshops on modern AI workflow orchestration, LangChain/LangGraph pipelines, and automation tooling.
-
----
-
-## `08 // SECURITY LAB`
+## `06 // SECURITY LAB`
 
 Security is a primary vector of study and experimentation. Active exploration areas:
 
@@ -376,7 +334,7 @@ APPSEC PRACTICES & VULNERABILITY MODELING
 
 ---
 
-## `09 // COMPUTER SCIENCE &amp; DSA VECTORS`
+## `07 // COMPUTER SCIENCE &amp; DSA VECTORS`
 
 <p align="center">
   <img src="./assets/learning-map.svg" alt="CS Learning Graph" width="100%">
@@ -390,7 +348,7 @@ Having developed an algorithmic problem-solving foundation in Python, I am curre
 
 ---
 
-## `10 // GITHUB TELEMETRY`
+## `08 // GITHUB TELEMETRY`
 
 <div align="center">
 
@@ -408,7 +366,7 @@ Having developed an algorithmic problem-solving foundation in Python, I am curre
 
 ---
 
-## `11 // INVESTIGATION`
+## `09 // INVESTIGATION`
 
 <details>
 <summary><kbd>🔍</kbd> <code>$ ./ninja981 --inspect-system</code></summary>
@@ -435,7 +393,7 @@ Good software rewards curiosity. Thanks for inspecting the codebase.
 
 ---
 
-## `12 // CONTACT`
+## `10 // CONTACT`
 
 <div align="center">
 
