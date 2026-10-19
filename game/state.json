@@ -1,26 +1,19 @@
 {
   "version": 1,
-  "rev": 3,
+  "rev": 4,
   "status": "playing",
   "turn": "human",
-  "moves": 2,
+  "moves": 0,
   "board": [
     ".......",
     ".......",
     ".......",
     ".......",
-    "...Y...",
-    "...R..."
+    ".......",
+    "......."
   ],
-  "lastMove": {
-    "col": 3,
-    "row": 5,
-    "by": "NINJA981"
-  },
-  "botMove": {
-    "col": 3,
-    "row": 4
-  },
+  "lastMove": null,
+  "botMove": null,
   "stats": {
     "games": 0,
     "humanWins": 0,
