@@ -165,7 +165,7 @@ Production stores built for real businesses, with real payments:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-ncs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-ncs-light.svg">
-  <img alt="A silk saree storefront with products, cart, checkout and admin" src="./assets/brand/card-ncs-light.svg" width="100%">
+  <img alt="NCS Santhanam, from the real store: the peacock logo and three silk saree photographs with the Kanchipuram, soft silk and wedding collections" src="./assets/brand/card-ncs-light.svg" width="100%">
 </picture>
 </a>
 <p><b>NCS Santhanam <sup>client work</sup></b><br>Silk saree store with admin console and background worker. Razorpay webhooks that are safe to retry, oversell-safe stock reservation, payment-hold expiry.</p>
@@ -177,7 +177,7 @@ Production stores built for real businesses, with real payments:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-methagu-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-methagu-light.svg">
-  <img alt="A bilingual English and Tamil palm jaggery store with checkout and admin" src="./assets/brand/card-methagu-light.svg" width="100%">
+  <img alt="Methagu Karuppatti, from the real store: the Tamil and English logo, palm jaggery boiling in a cauldron, a jaggery block and a palm grove" src="./assets/brand/card-methagu-light.svg" width="100%">
 </picture>
 </a>
 <p><b>Methagu Karuppatti <sup>client work</sup></b><br>Bilingual (English and Tamil) palm jaggery store. Razorpay and cash on delivery, coupons, refunds, GST invoices, admin analytics.</p>
@@ -307,7 +307,36 @@ Production stores built for real businesses, with real payments:
   <img alt="Let's talk. Open to on-site internships in Chennai for software, backend and AI work. Email saicharan312008@gmail.com." src="./assets/brand/contact-light.svg" width="100%">
 </picture>
 
-<a href="mailto:saicharan312008@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/sai-charan111/">LinkedIn</a> · <a href="https://charan.loopfound.in/">Portfolio</a> · <a href="https://leetcode.com/NINJA981/">LeetCode</a> · <a href="https://charan.loopfound.in/Sai_Charan_CV.pdf">Resume (PDF)</a>
+<a href="mailto:saicharan312008@gmail.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-email-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-email-light.svg">
+  <img alt="Email Sai Charan at saicharan312008@gmail.com" src="./assets/brand/btn-email-light.svg" height="46">
+</picture></a>
+<a href="https://www.linkedin.com/in/sai-charan111/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-linkedin-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-linkedin-light.svg">
+  <img alt="Sai Charan on LinkedIn" src="./assets/brand/btn-linkedin-light.svg" height="46">
+</picture></a>
+<a href="https://charan.loopfound.in/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-portfolio-light.svg">
+  <img alt="Portfolio at charan.loopfound.in" src="./assets/brand/btn-portfolio-light.svg" height="46">
+</picture></a>
+<a href="https://github.com/NINJA981"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-github-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-github-light.svg">
+  <img alt="Sai Charan on GitHub" src="./assets/brand/btn-github-light.svg" height="46">
+</picture></a>
+<a href="https://leetcode.com/NINJA981/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-leetcode-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-leetcode-light.svg">
+  <img alt="Sai Charan on LeetCode" src="./assets/brand/btn-leetcode-light.svg" height="46">
+</picture></a>
+<a href="https://charan.loopfound.in/Sai_Charan_CV.pdf"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-resume-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-resume-light.svg">
+  <img alt="Download the resume as a PDF" src="./assets/brand/btn-resume-light.svg" height="46">
+</picture></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/footer-dark.svg">

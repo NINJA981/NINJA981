@@ -1,4 +1,5 @@
 from brand import Doc, orbit_mark, save, text_width, _n
+from logos import draw_logo
 from assets_cards import circ
 
 W = 1200
@@ -14,18 +15,24 @@ STACK = [
 
 def stack(theme):
     # layout first to know the height
-    label_w, x_start, x_end, chip_h, gap = 190, 230, 1160, 40, 12
+    label_w, x_start, x_end, chip_h, gap = 170, 196, 1160, 40, 10
     rows = []
+    avail = x_end - x_start
     for label, items in STACK:
-        lines, cur, x = [], [], x_start
-        for it in items:
-            w = text_width("sg", it, 18, bold_factor=1.04) + 34
-            if x + w > x_end and cur:
-                lines.append(cur)
-                cur, x = [], x_start
-            cur.append((it, w))
-            x += w + gap
-        lines.append(cur)
+        ws = [(it, text_width("sg", it, 18, bold_factor=1.04) + 34 + 30) for it in items]
+        total = sum(w for _, w in ws) + gap * (len(ws) - 1)
+        if total <= avail:
+            lines = [ws]
+        else:  # balance two lines instead of leaving an orphan chip
+            best = None
+            for k in range(1, len(ws)):
+                a, b = ws[:k], ws[k:]
+                wa = sum(w for _, w in a) + gap * (len(a) - 1)
+                wb = sum(w for _, w in b) + gap * (len(b) - 1)
+                score = max(wa, wb)
+                if best is None or score < best[0]:
+                    best = (score, a, b)
+            lines = [best[1], best[2]]
         rows.append((label, lines))
     total_lines = sum(len(l) for _, l in rows)
     H = 110 + total_lines * (chip_h + gap) + len(rows) * 22 + 20
@@ -47,7 +54,8 @@ def stack(theme):
             x = x_start
             for it, w in line:
                 d.rect(x, y, w, chip_h, 20, fill=t["surface"], stroke=t["border"], sw=1.4)
-                d.text(x + w / 2, y + 26, it, "sg", 18, t["text"], weight=500, anchor="middle")
+                draw_logo(d, it, x + 14, y + 9, 22)
+                d.text(x + 14 + 22 + 9, y + 26, it, "sg", 18, t["text"], weight=500)
                 x += w + gap
             y += chip_h + gap
         y += 22

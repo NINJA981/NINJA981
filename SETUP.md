@@ -9,6 +9,9 @@ This repository powers the GitHub profile README for **Sai Charan (`NINJA981`)**
 - `game/` is the Connect-4 game (engine, bot, tests). A visitor opens an issue titled `c4|move|N` (`N` is 1 to 7) or `c4|new`; `.github/workflows/connect4.yml` plays the move, redraws the board, commits it, replies and closes the issue. Run the tests with `node game/test.mjs`. To switch the game off, disable the "Connect 4" workflow in the Actions tab.
 - `assets/` also contains older hand-made SVGs that are no longer referenced.
 
+- Client-work cards (`assets_clients.py`) are cropped from the real store imagery in the project folders; set `CLIENT_SRC` to the folder that contains `ncs/` and `navin-business-source/` (default `X:/Projects`). Stack and button logos come from Simple Icons (CC0), stored in `tools/design/icons/`; logos remain trademarks of their owners.
+- The hero tagline cycles through the statements in `STATEMENTS` (`tools/design/assets_basic.py`).
+
 ## Design system
 Black-hole editorial look to match the portfolio: ink `#12100c` / cream `#f4efe3`, accent orange `#ff7a18`. Fraunces (display), JetBrains Mono (labels), Space Grotesk (body), all OFL licensed.
 

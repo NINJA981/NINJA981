@@ -1,5 +1,29 @@
 from brand import Doc, blackhole, orbit_mark, stars, save, text_width, _n
 
+STATEMENTS = [
+    "I build AI products that real people use.",
+    "Raspberry Pi, LLMs and real classrooms.",
+    "Voice agents, RAG and backend systems.",
+    "Open to on-site internships in Chennai.",
+]
+
+
+def rotating(d, x, y, lines, size=34, period=4.0):
+    """Statements that wipe in like typing, hold, then fade, one after another (SMIL, loops forever)."""
+    t = d.t
+    total = period * len(lines)
+    r, h, f = 0.95 / total, 3.35 / total, 3.9 / total
+    kt = "0;%.5f;%.5f;%.5f;1" % (r, h, f)
+    kt2 = "0;%.5f;%.5f;%.5f;1" % (r, f, f + 0.0001)
+    for i, line in enumerate(lines):
+        w = round(text_width('fri', line, size) * 0.855 + 8)
+        cid = d.uid('rv')
+        d.d('<clipPath id="%s"><rect x="%s" y="%s" width="%s" height="%s"><animate attributeName="width" values="0;%d;%d;0;0" keyTimes="%s" dur="%ss" begin="%ss" repeatCount="indefinite"/></rect></clipPath>' % (cid, _n(x - 2), _n(y - size), 0 if i else w, _n(size * 1.5), w, w, kt2, _n(total), _n(i * period)))
+        d.add('<g clip-path="url(#%s)" opacity="%d"><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="%s" dur="%ss" begin="%ss" repeatCount="indefinite"/>' % (cid, 1 if i == 0 else 0, kt, _n(total), _n(i * period)))
+        d.text(x, y, line, 'fri', size, t['text'], weight=400, opacity=0.95)
+        d.add('</g>')
+        d.add('<rect x="%s" y="%s" width="2.5" height="%s" fill="%s" opacity="0"><animate attributeName="x" values="%s;%s;%s;%s;%s" keyTimes="%s" dur="%ss" begin="%ss" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="%s" dur="%ss" begin="%ss" repeatCount="indefinite"/></rect>' % (_n(x), _n(y - size * 0.82), _n(size * 1.02), t['accent'], _n(x), _n(x + w), _n(x + w), _n(x + w), _n(x), kt, _n(total), _n(i * period), kt, _n(total), _n(i * period)))
+
 
 def _frame(d, w, h, r=24):
     t = d.t
@@ -22,7 +46,7 @@ def _grid(d, w, h, cid, step=40):
 def hero(theme):
     w, h = 1200, 380
     d = Doc(w, h, theme, "Sai Charan, software and AI engineer",
-            "Name and tagline beside an animated black hole with an orbiting dot. Software, AI systems and edge hardware.")
+            "Name beside an animated black hole with an orbiting dot. A line of text types in and cycles through: " + " / ".join(STATEMENTS))
     t = d.t
     cid = _frame(d, w, h)
     _grid(d, w, h, cid)
@@ -35,7 +59,7 @@ def hero(theme):
     d.add("</g>")
     d.text(64, 96, "SOFTWARE · AI SYSTEMS · EDGE HARDWARE", "mono", 19, t["accent"], weight=500, ls=4.5)
     d.text(60, 208, "Sai Charan", "fr", 112, t["text"], weight=800, ls=-2)
-    d.text(64, 266, "I build AI products that real people use.", "fri", 34, t["text"], weight=400, opacity=0.92)
+    rotating(d, 64, 266, STATEMENTS)
     d.rect(64, 292, 96, 3, 1.5, fill=t["accent"])
     d.text(64, 338, "CHENNAI  ·  CSE '29  ·  MACHINE LEARNING INTERN @ BENX", "mono", 17, t["muted"], weight=500, ls=2)
     d.add('<rect x="0.5" y="0.5" width="%d" height="%d" rx="24" fill="none" stroke="%s"/>' % (w - 1, h - 1, t["border"]))

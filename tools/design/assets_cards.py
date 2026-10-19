@@ -294,6 +294,6 @@ def methagu(theme):
 def build_all():
     out = []
     for th in ("dark", "light"):
-        for fn in (classiq, solace, leetx, cryptotrace, jarvis, visionnav, ncs, methagu):
+        for fn in (classiq, solace, leetx, cryptotrace, jarvis, visionnav):
             out.append(fn(th))
     return out

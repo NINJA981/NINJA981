@@ -5,7 +5,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-MODULES = ["assets_basic", "assets_cards", "assets_diagrams", "assets_panels"]
+MODULES = ["assets_basic", "assets_cards", "assets_diagrams", "assets_panels", "assets_buttons", "assets_clients"]
 
 if __name__ == "__main__":
     only = sys.argv[1:]

@@ -1,0 +1,174 @@
+{
+ "TypeScript": {
+  "slug": "typescript",
+  "hex": "3178C6"
+ },
+ "Python": {
+  "slug": "python",
+  "hex": "3776AB"
+ },
+ "Java": {
+  "slug": "openjdk",
+  "hex": "000000"
+ },
+ "Kotlin": {
+  "slug": "kotlin",
+  "hex": "7F52FF"
+ },
+ "C": {
+  "slug": "c",
+  "hex": "A8B9CC"
+ },
+ "React": {
+  "slug": "react",
+  "hex": "61DAFB"
+ },
+ "Next.js": {
+  "slug": "nextdotjs",
+  "hex": "000000"
+ },
+ "Node.js": {
+  "slug": "nodedotjs",
+  "hex": "5FA04E"
+ },
+ "Express": {
+  "slug": "express",
+  "hex": "000000"
+ },
+ "Fastify": {
+  "slug": "fastify",
+  "hex": "000000"
+ },
+ "Tailwind": {
+  "slug": "tailwindcss",
+  "hex": "06B6D4"
+ },
+ "PostgreSQL": {
+  "slug": "postgresql",
+  "hex": "4169E1"
+ },
+ "Redis": {
+  "slug": "redis",
+  "hex": "FF4438"
+ },
+ "Supabase": {
+  "slug": "supabase",
+  "hex": "3FCF8E"
+ },
+ "SQLite": {
+  "slug": "sqlite",
+  "hex": "003B57"
+ },
+ "Firebase": {
+  "slug": "firebase",
+  "hex": "DD2C00"
+ },
+ "OpenAI": {
+  "slug": "openai",
+  "hex": "412991"
+ },
+ "Gemini": {
+  "slug": "googlegemini",
+  "hex": "8E75B2"
+ },
+ "Claude": {
+  "slug": "claude",
+  "hex": "D97757"
+ },
+ "Ollama": {
+  "slug": "ollama",
+  "hex": "000000"
+ },
+ "MCP": {
+  "slug": "modelcontextprotocol",
+  "hex": "000000"
+ },
+ "n8n": {
+  "slug": "n8n",
+  "hex": "EA4B71"
+ },
+ "Docker": {
+  "slug": "docker",
+  "hex": "2496ED"
+ },
+ "GitHub Actions": {
+  "slug": "githubactions",
+  "hex": "2088FF"
+ },
+ "Cloudflare": {
+  "slug": "cloudflare",
+  "hex": "F38020"
+ },
+ "Vercel": {
+  "slug": "vercel",
+  "hex": "000000"
+ },
+ "Raspberry Pi": {
+  "slug": "raspberrypi",
+  "hex": "A22846"
+ },
+ "Linux": {
+  "slug": "linux",
+  "hex": "FCC624"
+ },
+ "Socket.IO": {
+  "slug": "socketdotio",
+  "hex": "010101"
+ },
+ "Prisma": {
+  "slug": "prisma",
+  "hex": "2D3748"
+ },
+ "Drizzle": {
+  "slug": "drizzle",
+  "hex": "C5F74F"
+ },
+ "Terraform": {
+  "slug": "terraform",
+  "hex": "844FBA"
+ },
+ "Android": {
+  "slug": "android",
+  "hex": "3DDC84"
+ },
+ "Gmail": {
+  "slug": "gmail",
+  "hex": "EA4335"
+ },
+ "LeetCode": {
+  "slug": "leetcode",
+  "hex": "FFA116"
+ },
+ "GitHub": {
+  "slug": "github",
+  "hex": "181717"
+ },
+ "Chrome": {
+  "slug": "googlechrome",
+  "hex": "4285F4"
+ },
+ "Electron": {
+  "slug": "electron",
+  "hex": "47848F"
+ },
+ "Vite": {
+  "slug": "vite",
+  "hex": "646CFF"
+ },
+ "Git": {
+  "slug": "git",
+  "hex": "F05032"
+ },
+ "Razorpay": {
+  "slug": "razorpay",
+  "hex": "0C2451"
+ },
+ "FastAPI": {
+  "slug": "fastapi",
+  "hex": "009688"
+ },
+ "PyTorch": {
+  "slug": "pytorch",
+  "hex": "EE4C2C"
+ }
+}
