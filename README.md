@@ -169,7 +169,7 @@ Production stores built for real businesses, with real payments:
 </picture>
 </a>
 <p><b>NCS Santhanam <sup>client work</sup></b><br>Silk saree store with admin console and background worker. Razorpay webhooks that are safe to retry, oversell-safe stock reservation, payment-hold expiry.</p>
-<p><sub><b>Terraform + CI/CD with rollback · k6 load test · Playwright E2E</b></sub></p>
+<p><sub><b>about 45 tests · 3 CI/CD workflows with rollback · Terraform · k6 load test</b></sub></p>
 <p><code>Next.js</code> <code>Prisma</code> <code>Redis</code> <code>BullMQ</code> <code>Razorpay</code></p>
 </td>
 <td width="50%" valign="top">
@@ -181,11 +181,23 @@ Production stores built for real businesses, with real payments:
 </picture>
 </a>
 <p><b>Methagu Karuppatti <sup>client work</sup></b><br>Bilingual (English and Tamil) palm jaggery store. Razorpay and cash on delivery, coupons, refunds, GST invoices, admin analytics.</p>
-<p><sub><b>Playwright E2E with accessibility checks · CSP, CSRF, rate limiting</b></sub></p>
+<p><sub><b>about 73 tests · Playwright with accessibility checks · CSP, CSRF, rate limiting</b></sub></p>
 <p><code>Next.js</code> <code>Drizzle</code> <code>PostgreSQL</code> <code>Razorpay</code></p>
 </td>
 </tr>
 </table>
+
+<details open>
+<summary><b>Under the hood: a payment that cannot be charged twice or oversold</b></summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/arch-payments-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/arch-payments-light.svg">
+  <img alt="A buyer checks out and stock is reserved with a conditional update. Razorpay takes the payment and a signed, idempotent webhook confirms the order. If the payment never arrives, a BullMQ job releases the stock." src="./assets/brand/arch-payments-light.svg" width="100%">
+</picture>
+
+The part that matters on a real store: stock is reserved with a conditional `UPDATE` plus a `CHECK` constraint, so two buyers cannot take the last saree. The webhook verifies the Razorpay signature and is idempotent, so a retried call cannot confirm an order twice. A BullMQ worker puts stock back when a payment never completes.
+</details>
 
 **Also built:** [VADA](https://github.com/NINJA981/vada) (voice RAG with hybrid retrieval, benchmarked) · SafeCanteen (canteen pre-ordering, money and capacity rules in the database) · [ResponSync](https://github.com/NINJA981/RS) (flood-response digital twin, I built the backend) · OpenShield (dependency and licence risk scanner with SBOM export).
 
