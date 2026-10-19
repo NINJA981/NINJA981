@@ -37,7 +37,7 @@ def hero(theme):
     d.text(60, 208, "Sai Charan", "fr", 112, t["text"], weight=800, ls=-2)
     d.text(64, 266, "I build AI products that real people use.", "fri", 34, t["text"], weight=400, opacity=0.92)
     d.rect(64, 292, 96, 3, 1.5, fill=t["accent"])
-    d.text(64, 338, "CHENNAI  ·  CSE '29  ·  ML DEVELOPER INTERN @ BENX", "mono", 17, t["muted"], weight=500, ls=2)
+    d.text(64, 338, "CHENNAI  ·  CSE '29  ·  MACHINE LEARNING INTERN @ BENX", "mono", 17, t["muted"], weight=500, ls=2)
     d.add('<rect x="0.5" y="0.5" width="%d" height="%d" rx="24" fill="none" stroke="%s"/>' % (w - 1, h - 1, t["border"]))
     return save(d, "hero")
 

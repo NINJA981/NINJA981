@@ -251,9 +251,9 @@ Production stores built for real businesses, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=22f41f05">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=22f41f05">
-  <img alt="Language share across public repos: TypeScript 39.2%, HTML 31.1%, Python 18.4%, JavaScript 6.3%, Kotlin 1.5%, Shell 1.3%, CSS 1.1%, Other 1.1%" src="./assets/live/languages-light.svg?v=22f41f05" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=cd61e676">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=cd61e676">
+  <img alt="Language share across public repos: TypeScript 59.0%, Python 27.7%, JavaScript 9.5%, Kotlin 2.2%, Jupyter Notebook 1.5%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=cd61e676" width="100%">
 </picture>
 <!-- LANG:END -->
 

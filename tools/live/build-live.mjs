@@ -9,6 +9,8 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const USER = 'NINJA981';
+// Markup and shell are not what the language share is meant to show.
+const EXCLUDED_LANGS = new Set(['HTML', 'CSS', 'SCSS', 'Shell', 'Batchfile', 'Dockerfile', 'PowerShell', 'Makefile']);
 const SKIP_REPOS = new Set([USER.toLowerCase(), 'test', 'test-repo', 'leetcode-submissions']);
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..', '..');
@@ -243,7 +245,7 @@ async function main() {
     try {
       const langs = await (await gh(`/repos/${r.full_name}/languages`)).json();
       let any = false;
-      for (const [k, v] of Object.entries(langs)) { totals.set(k, (totals.get(k) || 0) + v); any = true; }
+      for (const [k, v] of Object.entries(langs)) { if (EXCLUDED_LANGS.has(k)) continue; totals.set(k, (totals.get(k) || 0) + v); any = true; }
       if (any) used++;
     } catch (e) {
       if (e instanceof RateLimitError) throw e;
