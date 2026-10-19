@@ -1,331 +1,219 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="NINJA981 System Header" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,50:1c2541,100:3a506b&height=220&section=header&text=Sai%20Charan&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Software%20%26%20AI%20Engineer%20%C2%B7%20Chennai&descSize=20&descAlignY=60&descColor=9fb3c8" alt="Sai Charan, Software and AI Engineer" width="100%"/>
 
-<br>
+<a href="https://saicharan-web.pages.dev">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=5BC0BE&center=true&vCenter=true&width=700&lines=I+build+AI+products+that+actually+ship;Raspberry+Pi+%2B+LLMs+%2B+real+classrooms;Voice+agents%2C+RAG%2C+and+backend+systems;ML+Developer+Intern+%40+BenX+%C2%B7+CSE+%40+Sathyabama" alt="typing intro"/>
+</a>
 
-<p align="center">
-  <a href="#01--current-state"><code>// STATE</code></a> &nbsp;·&nbsp;
-  <a href="#02--selected-work"><code>// SELECTED WORK</code></a> &nbsp;·&nbsp;
-  <a href="#03--architecture-topology"><code>// TOPOLOGY</code></a> &nbsp;·&nbsp;
-  <a href="#04--engineering-loadout"><code>// LOADOUT</code></a> &nbsp;·&nbsp;
-  <a href="#05--engineering-principles"><code>// PRINCIPLES</code></a> &nbsp;·&nbsp;
-  <a href="#06--contact"><code>// CONTACT</code></a>
+<p>
+  <a href="https://saicharan-web.pages.dev"><img src="https://img.shields.io/badge/Portfolio-visit-1c2541?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/sai-charan111/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://leetcode.com/NINJA981/"><img src="https://img.shields.io/badge/LeetCode-NINJA981-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <a href="mailto:saicharan312008@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://saicharan-web.pages.dev/Sai_Charan_CV.pdf"><img src="https://img.shields.io/badge/Resume-PDF-3a506b?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume"/></a>
 </p>
+
+<p>
+  <img src="https://img.shields.io/badge/status-open%20to%20internships-2ea44f?style=flat-square" alt="open to internships"/>
+  <img src="https://img.shields.io/badge/location-Chennai%2C%20India-3a506b?style=flat-square" alt="Chennai"/>
+  <img src="https://img.shields.io/badge/CGPA-8.76-5bc0be?style=flat-square" alt="CGPA 8.76"/>
+  <img src="https://komarev.com/ghpvc/?username=NINJA981&label=profile%20views&color=3a506b&style=flat-square" alt="profile views"/>
+</p>
+
+<sub><a href="#-about">About</a> · <a href="#-featured-work">Featured work</a> · <a href="#-how-it-works">How it works</a> · <a href="#-client-work">Client work</a> · <a href="#-stack">Stack</a> · <a href="#-wins--community">Wins</a> · <a href="#-activity">Activity</a> · <a href="#-lets-talk">Contact</a></sub>
+
+</div>
+
+> [!NOTE]
+> **I'm looking for an on-site software / AI engineering internship in Chennai.** If you are building with LLMs, voice, or edge hardware, I would love to help. [Message me](mailto:saicharan312008@gmail.com) or [connect on LinkedIn](https://www.linkedin.com/in/sai-charan111/).
+
+---
+
+## 👋 About
+
+Second-year CSE student at **Sathyabama Institute of Science and Technology** and **ML Developer Intern at BenX Solutions**. I turn ideas into working systems. I care most about software that real people use: a classroom running on a Raspberry Pi, a store taking real payments, a journal that remembers you.
+
+```text
+📍 Chennai, India              🎓 B.E. CSE · 2025 – 2029 · CGPA 8.76
+🛠️ ML Developer Intern @ BenX Solutions
+🔭 Building    →  AI classroom tech · voice-first agents · assistive navigation
+🧠 Learning    →  system design · distributed systems · evaluation of LLM apps
+🎯 Looking for →  on-site internship (software / backend / AI) in Chennai
+⚡ Fun fact    →  I built the registration + payments platform for a 24-hour national hackathon
+```
+
+---
+
+## 🚀 Featured work
+
+<div align="center">
+<table>
+<tr>
+<td align="center"><a href="https://github.com/NINJA981/Solace-Diaries"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NINJA981&repo=Solace-Diaries&theme=tokyonight&hide_border=true" alt="Solace Diaries"/></a></td>
+<td align="center"><a href="https://github.com/NINJA981/LeetX"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NINJA981&repo=LeetX&theme=tokyonight&hide_border=true" alt="LeetX Squads"/></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/NINJA981/cryptotrace"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NINJA981&repo=cryptotrace&theme=tokyonight&hide_border=true" alt="CryptoTrace"/></a></td>
+<td align="center"><a href="https://github.com/NINJA981/vada"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NINJA981&repo=vada&theme=tokyonight&hide_border=true" alt="VADA"/></a></td>
+</tr>
+</table>
+</div>
+
+| Project | What it does | Built with |
+|---|---|---|
+| 🎓 **ClassIQ** · *co-built at BenX* | A Raspberry Pi records a lecture, transcribes it in Indian languages and turns it into bilingual quizzes. Live and self-paced quizzes, secure exams, AI grading help, and a super-admin console that runs many schools. Team of 4 · 500+ automated tests · CI · Docker/Coolify deploy. | `Express 5` `Socket.IO` `PostgreSQL` `BullMQ` `Next.js 16` `Raspberry Pi` |
+| 📓 **[Solace Diaries](https://github.com/NINJA981/Solace-Diaries)** · [live](https://solace-diaries.vercel.app) | A private journal that remembers. Search by meaning, ask questions of your own past, get answers that cite the entries they came from. ~327 tests · durable job queue · row-level security. | `React 19` `Express 5` `Postgres + pgvector` `Gemini` |
+| 🧩 **[LeetX Squads](https://github.com/NINJA981/LeetX)** | Cross-browser extension that makes LeetCode a habit you keep with friends: streaks, spaced review, squads, 1v1 duels, GitHub backup. Firebase rules tested on the emulator · ~80 tests · CI-built Chrome and Firefox releases. | `JavaScript (MV3)` `Firebase` `GitHub Actions` |
+| 🛰️ **[CryptoTrace](https://github.com/NINJA981/cryptotrace)** · [live](https://cryptotrace-sand.vercel.app) | Multi-chain wallet attribution: maps unknown wallets to the nearest exchange with graph traversal and explainable scoring. Built solo for Smart India Hackathon. | `FastAPI` `Next.js` `Etherscan / TronGrid` |
+| 🧠 **JARVIS** | Voice-first AI layer for Windows, built with AI coding agents: a model router across Claude, OpenAI, Gemini and Ollama with failover and budgets, a permission gate on every action, 11 MCP tool servers and an Android companion. 1,100+ automated tests. | `TypeScript` `Electron` `MCP` `Ollama` |
+| 🦯 **VisionNav** | On-device Android navigation for blind and low-vision people: live camera hazard detection and assisted road-crossing awareness through voice and haptics. 500+ unit tests on the core; field testing in progress. | `Kotlin` `CameraX` `YOLOv8n` `LiteRT` |
+| 🎙️ **[VADA](https://github.com/NINJA981/vada)** | Voice-native RAG: speech in, hybrid retrieval (vector + keyword), rerank, an "is this answerable?" gate and grounded answers, with measured latency and recall. | `TypeScript` `SQLite (sqlite-vec)` `Sarvam STT` `Groq` |
+| 🍽️ **SafeCanteen** | Canteen pre-ordering with a wallet and pickup codes. Money and capacity rules live in the database and are tested with 200 students racing for 20 portions. | `Fastify` `PostgreSQL` `React PWA` |
+| 🌊 **[ResponSync](https://github.com/NINJA981/RS)** | AI digital twin for flood response (I built the backend: JWT RBAC, live SSE updates, Gemini key failover). | `Node.js` `Supabase/PostGIS` `Gemini` |
+| 🚀 **[ORION 1.0](https://github.com/NINJA981/orion-1.0)** · [live](https://orion-sathyabama.vercel.app) | Registration, Razorpay payments and admin console for a 24-hour national hackathon by Microsoft Club SIST. | `Next.js` `Supabase` `Razorpay` |
+
+---
+
+## 🧭 How it works
+
+<details open>
+<summary><b>🎓 ClassIQ: from a lecture to a quiz</b></summary>
+
+```mermaid
+flowchart LR
+    Pi["Raspberry Pi 5<br/>lecture recorder"] -->|audio| API["Express 5 + Socket.IO<br/>API"]
+    API --> STT["Sarvam STT<br/>Indian languages"]
+    STT --> LLM["OpenAI<br/>bilingual quiz generation"]
+    LLM --> DB[("PostgreSQL<br/>+ BullMQ jobs")]
+    API --> DB
+    DB --> Web["Next.js 16 PWA<br/>admin · teacher · student"]
+    Web --> Phones["Live and self-paced quizzes<br/>on students' phones"]
+```
+
+</details>
+
+<details>
+<summary><b>🧠 JARVIS: one voice command, many agents</b></summary>
+
+```mermaid
+flowchart LR
+    V["Wake word<br/>'Hey Jarvis'"] --> S["Supervisor"]
+    S --> A1["Operator"]
+    S --> A2["Researcher"]
+    S --> A3["Engineer"]
+    S --> A4["+5 specialists"]
+    A1 & A2 & A3 & A4 --> G{"Permission<br/>gate"}
+    G --> M["11 MCP servers<br/>system · files · browser · ..."]
+    M --> W["Your Windows PC"]
+    S -.-> R["Model router<br/>Claude · OpenAI · Gemini · Ollama"]
+```
+
+</details>
+
+<details>
+<summary><b>📓 Solace: how a journal entry becomes memory</b></summary>
+<br/>
+<div align="center">
+  <img src="./assets/solace-architecture.svg" alt="Solace architecture" width="90%"/>
+</div>
+</details>
+
+---
+
+## 🏢 Client work
+
+Production sites I built for real businesses, with real payments and CI/CD:
+
+| Client | What I built | Highlights |
+|---|---|---|
+| **NCS Santhanam** (silk sarees) | Storefront, admin console and background worker | Razorpay idempotent webhooks · oversell-safe stock reservation · BullMQ workers · Terraform + CI/CD with rollback · k6 load test |
+| **Methagu Karuppatti** (palm jaggery) | Bilingual (English/Tamil) store and admin | Razorpay + COD · coupons, refunds, GST invoices · Playwright E2E with accessibility checks · CSP, CSRF, rate limiting |
+
+---
+
+## 🧰 Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,kotlin,c,sql&theme=dark" alt="languages"/><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,vite&theme=dark" alt="web"/><br/>
+<img src="https://skillicons.dev/icons?i=postgres,supabase,redis,prisma,mysql,sqlite,firebase&theme=dark" alt="data"/><br/>
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,aws,vercel,cloudflare,figma,raspberrypi&theme=dark" alt="tools"/>
+
+</div>
+
+**AI:** LLM APIs (OpenAI · Gemini · Claude · Ollama) · RAG & pgvector · speech-to-text · agents & MCP · n8n
+
+> [!TIP]
+> I use AI coding agents every day and I say so openly. What I own: the architecture, the tests, and the parts I can explain line by line.
+
+---
+
+## 🏆 Wins & community
+
+<details open>
+<summary><b>Hackathons & competitions</b></summary>
+
+| Result | Event |
+|---|---|
+| 🥇 1st | **Hack the Vibe** |
+| 🥇 1st | **Code in the Dark** (Oct 2025) |
+| 🥈 2nd | **ProtoTech** (Sep 2026): open-source licence & dependency risk checker |
+| 🥈 2nd | **PromptCraft**, TechnoSummit (Sep 2026) |
+| 🥉 3rd | **Aurora Hackathon** (Aug 2026): ResponSync |
+| 4th · 5th | **Hack The Planet** · **VIT Hackathon 2026** |
+| ⭐ | **Rush Hour**: Special Mention, plus an internship offer |
+| 🏅 | **Luminary Award**: sole all-rounder of the first-year batch |
+
+</details>
+
+<details>
+<summary><b>Teaching, speaking & organising</b></summary>
+
+- 🎤 **Instructor**: n8n workflow-automation workshop
+- 🎙️ **Speaker**: WebXplore, AI-assisted development
+- 🛠️ **Head organiser**: Crackathon · **Organiser**: CodeStorm (7-day C workshop)
+- 👥 **Initiator**: Forge, a student developer community
+- 🏛️ **Member**: Microsoft Student Developer Club (AI division)
+
+</details>
+
+---
+
+## 📊 Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NINJA981/NINJA981/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NINJA981/NINJA981/output/github-snake.svg" />
+  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/NINJA981/NINJA981/output/github-snake.svg" width="100%" />
+</picture>
+
+<a href="https://github.com/NINJA981"><img height="165" src="https://github-readme-stats.vercel.app/api?username=NINJA981&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/></a>
+<a href="https://github.com/NINJA981"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NINJA981&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages"/></a>
+
+<img src="https://streak-stats.demolab.com/?user=NINJA981&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+
+<a href="https://leetcode.com/NINJA981/"><img src="https://leetcard.jacoblin.cool/NINJA981?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode stats" width="640"/></a>
 
 </div>
 
 ---
 
-### `POSITIONING`
+## 🤝 Let's talk
 
-> **Computer Science student building AI systems, backend products, security tools, and experimental software.**
-> 
-> *“I build things to understand how they work. The interesting part of a project is often what happens underneath the interface.”*
-
----
-
-## `01 // CURRENT STATE`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📍 Profile Context
-
-- **Name:** Sai Charan
-- **Role:** CSE Student &amp; Software Builder
-- **University:** Sathyabama Institute of Science and Technology
-- **Location:** Chennai, India
-- **Stage:** College student building production-grade software while systematically mastering CS fundamentals.
-
-```text
-OPERATING VECTOR
-────────────────
-AI Engineering        · Semantic memory & RAG
-Backend Systems       · TypeScript, Node, SQL
-Application Security  · SAST, CTFs & simulations
-Core Fundamentals     · DSA (Java) & System Design
-```
-
-</td>
-<td width="50%" valign="top">
-
-### ⚡ Active Focus Matrix
-
-```text
-BUILDING (In Active Development)
-├── Solace Diaries   [Semantic memory & RAG reflection]
-├── CyberArena       [Deterministic AppSec simulation]
-├── RCA-Engine       [SRE microservice failure analysis]
-└── Gridlock         [State orchestration & constraints]
-
-LEARNING (Deepening Fundamentals)
-├── System Design    [API contracts, DB schemas, caching]
-├── Advanced DSA     [Transferring Python base to Java]
-├── AI Engineering   [pgvector, embeddings, agent flows]
-└── App Security     [SAST rule sets & attack vectors]
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `02 // SELECTED WORK`
-
-Flagship repositories demonstrating engineering judgment, system architecture, and real execution.
-
----
-
-### `01. SOLACE DIARIES` · `ONLINE`
-
-**An AI journaling platform built around persistent semantic memory and hybrid retrieval.**
-
-> Traditional journaling apps are static text archives where past insights get lost. Solace Diaries experiments with persistent semantic memory: transforming multi-modal journal entries into 768-dimensional vector coordinates so users can converse with their past through grounded reflection.
-
-<p align="center">
-  <img src="./assets/solace-architecture.svg" alt="Solace Diaries System Architecture" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://github.com/NINJA981/Solace-Diaries">
-    <img src="https://img.shields.io/badge/inspect_repository-Solace--Diaries-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Solace Diaries Repo">
-  </a>
-</p>
-
-**`STACK:`** `TypeScript` · `Node.js` · `Express` · `Google Gemini 2.5 Flash` · `gemini-embedding-2` · `PostgreSQL` · `Supabase` · `pgvector` · `Prisma` · `React 19` · `Vite`
-
-<details>
-<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Semantic Memory &amp; pgvector Integration</strong></summary>
-<br>
-
-- **Why `pgvector` over dedicated vector DBs:** Kept relational metadata (dates, mood tags, user auth, image references) and high-dimensional embeddings inside a single transactional PostgreSQL store, avoiding distributed consistency sync issues.
-- **Prisma + Raw SQL Boundary:** Prisma manages relational migrations and typed schemas, while high-performance cosine similarity searches (`<=>` operator) and vector distance queries are executed via raw SQL transactions over indexed vector columns.
-- **Decoupled Intelligence Flow:** Entry payloads pass through `gemini-embedding-2-preview` to generate 768-dimensional coordinates, while `gemini-2.5-flash` extracts emotional nuances and metadata tags concurrently.
-- **Strict Grounding:** Chat prompts are explicitly bounded to retrieved cosine-nearest entry chunks to eliminate hallucination and deliver cited reflections.
-
-</details>
-
----
-
-### `02. CYBERARENA` · `ONLINE`
-
-**A simulated application security battlefield with deterministic execution and digital twin topology.**
-
-> CyberArena models a full enterprise network topology (Firewall → Load Balancer → Web Nodes → API Gateway → Auth → Database) and simulates real-time attack/defense sequences. Crucially, the simulation is **100% deterministic**—code and SAST security rules govern the outcome, while AI is used strictly for after-action triage and post-mortems.
-
-<p align="center">
-  <img src="./assets/cyberarena-architecture.svg" alt="CyberArena Simulation Architecture" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://github.com/NINJA981/CyberArena">
-    <img src="https://img.shields.io/badge/enter_simulation-CyberArena-f85149?style=flat-square&logo=github&logoColor=white" alt="CyberArena Repo">
-  </a>
-</p>
-
-**`STACK:`** `React 19` · `TanStack Start` · `TypeScript` · `Vite` · `SAST Scanner` · `Google Gemini 2.5 Flash` · `Tailwind CSS v4`
-
-<details>
-<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Deterministic Engine vs. LLM Hallucination</strong></summary>
-<br>
-
-- **Simulation Core vs. AI Separation:** Security simulations cannot rely on generative model randomness. The simulation loop advances via `requestAnimationFrame`, calculating node health, compromise status, and lateral movement from explicit rule graphs and configuration states.
-- **Arena Workspace &amp; SAST Scanner:** Dynamic workspace scaffolder generates intentional misconfigurations (`arena/{template}/`), which the internal SAST scanner parses (detecting unrestricted ingress `0.0.0.0/0`, exposed SSH, weak secrets) to set base risk indexes.
-- **Post-Mortem AI Referee:** Once the deterministic battle concludes, event telemetry and timeline logs are passed to `gemini-2.5-flash` to synthesize an incident report and actionable remediation recommendations.
-
-</details>
-
----
-
-### `03. RCA-ENGINE` · `ONLINE`
-
-**AI-powered root-cause analysis and incident response dashboard for microservice architectures.**
-
-> An SRE incident response tool that visualizes microservice dependencies, monitors real-time telemetry (latency, error rates, CPU/memory saturation), detects cascading failures, and generates natural-language RCA summaries with actionable remediation playbooks.
-
-`Service Health Metrics` ──→ `Dependency Graph` ──→ `Anomaly Detection` ──→ `AI RCA Synthesis` ──→ `Remediation Steps`
-
-<p align="center">
-  <a href="https://github.com/NINJA981/RCA-Engine">
-    <img src="https://img.shields.io/badge/inspect_repository-RCA--Engine-e3b341?style=flat-square&logo=github&logoColor=white" alt="RCA-Engine Repo">
-  </a>
-</p>
-
-**`STACK:`** `Next.js 16` · `React 19` · `Tailwind CSS 4` · `TypeScript 5.7` · `Microservice Dependency Graphs` · `AI Incident Analysis`
-
-<details>
-<summary><kbd>▶</kbd> <strong>Deep Technical Notes: Dependency Graphs &amp; Incident Triage</strong></summary>
-<br>
-
-- **Interactive Topology Graph:** Color-coded service nodes (`green`/healthy, `amber`/degraded, `red`/critical) with dynamic connection flow lines indicating traffic health and failure propagation paths.
-- **Cost of Downtime &amp; Severity Tracking:** Real-time calculation engine with timeline traces and keyboard-driven shortcut navigation (`/` search).
-- **Incident Remediation:** Diagnostic summary identifies primary root causes vs upstream symptoms to reduce Mean Time to Resolution (MTTR).
-
-</details>
-
----
-
-### `04. GRIDLOCK` · `BUILDING`
-
-**Systems &amp; state engineering project focused on managing complex distributed state and constraints.**
-
-> Investigating how state machines, concurrency controls, and constraint satisfaction algorithms behave when managing complex interconnected components.
-
-<p align="center">
-  <a href="https://github.com/NINJA981/Gridlock">
-    <img src="https://img.shields.io/badge/inspect_repository-Gridlock-3fb950?style=flat-square&logo=github&logoColor=white" alt="Gridlock Repo">
-  </a>
-</p>
-
-**`FOCUS:`** `Distributed State Management` · `State Machine Modeling` · `Concurrency Controls` · `System Reliability`
-
----
-
-### `05. ADDITIONAL SYSTEMS &amp; EXPERIMENTS`
-
-<details>
-<summary><kbd>+</kbd> <strong>Expand Archive Repositories</strong></summary>
-<br>
-
-| Project | Domain | Key Architecture &amp; Tech | Repository |
-|:---|:---|:---|:---:|
-| **EQUUS / ZooLearn** | Interactive Simulation &amp; AI Vision | 55M-year evolutionary natural selection sandbox (*GenEquus*), AI Paleontologist Desk with canvas sketchpad analysis via **Gemini 2.5 Flash**, and geological excavation stratum grid. | [View Repo](https://github.com/NINJA981/zoolearn) |
-| **VocalPulse (Call-Centre Engine)** | AI Speech &amp; Sales Telemetry | AI-powered dialer &amp; tracking system: multi-tenant lead management, Twilio VoIP / mobile SIM tracking, Whisper speech-to-text, and GPT-4o conversation intelligence. | [View Repo](https://github.com/NINJA981/Call-centre-Hackathon-project) |
-| **ZeroX** | Developer Tooling &amp; Experiments | Experimental software utilities and research codebase. | [View Repo](https://github.com/NINJA981/ZeroX) |
-
-</details>
-
----
-
-## `03 // ARCHITECTURE TOPOLOGY`
-
-How active repositories map across paradigms and infrastructure layers:
-
-<p align="center">
-  <img src="./assets/project-map.svg" alt="Project Architecture Topology Map" width="100%">
-</p>
-
----
-
-## `04 // ENGINEERING LOADOUT`
-
-Organized strictly by active implementation experience:
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 💻 Languages
-- **TypeScript** *(Primary)*
-- **JavaScript**
-- **Java** *(DSA focus)*
-- **Python**
-- **C**
-
-</td>
-<td width="33%" valign="top">
-
-### ⚙️ Backend &amp; Data
-- **Node.js** · **Express**
-- **PostgreSQL** · **pgvector**
-- **Supabase** · **Prisma ORM**
-- **REST APIs** · Database Design
-- Raw SQL Vector Operations
-
-</td>
-<td width="33%" valign="top">
-
-### 🧠 AI &amp; Retrieval
-- **Google Gemini** *(2.5 Flash)*
-- **Gemini Embeddings** *(768d)*
-- **RAG &amp; Hybrid Search**
-- Semantic Memory Maps
-- AI Agent Workflows
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🎨 Frontend
-- **React 19** · **React 18**
-- **Next.js 16** · **TanStack**
-- **Tailwind CSS** *(v3 &amp; v4)*
-- **Vite** · HTML5 / Canvas
-
-</td>
-<td width="33%" valign="top">
-
-### 🛡️ Security Lab
-- **SAST Rule Evaluation**
-- **Burp Suite** · **CTFs (picoCTF)**
-- Web Vulnerability Analysis
-- Attack Path Simulation
-- Web Security Academy
-
-</td>
-<td width="33%" valign="top">
-
-### 🛠️ Toolchain
-- **Git** · **GitHub**
-- **VS Code** · **Linux**
-- **Vercel** · **Render** · **Netlify**
-- **Postman** · **npm / bun**
-
-</td>
-</tr>
-</table>
-
----
-
-## `05 // ENGINEERING PRINCIPLES`
-
-Core rules governing how I approach software design and problem solving:
-
-```text
-01 // BUILD OVER TUTORIAL CONSUMPTION
-The fastest path to deep comprehension is building real systems from scratch rather than passively watching walkthroughs.
-
-02 // UNDERSTAND UNDERNEATH THE ABSTRACTION
-If I use an ORM, framework, or library, I want to know how the raw SQL, runtime loop, or network socket functions beneath it.
-
-03 // AI ACCELERATES ENGINEERING, NOT UNDERSTANDING
-Use AI to eliminate boilerplate and assist analysis, never as a substitute for knowing your system's fundamental mechanics.
-
-04 // PROJECTS ARE EXPERIMENTS FOR LEARNING SYSTEMS
-Every repository is a controlled laboratory for testing architectural patterns, data structures, and edge cases.
-
-05 // EMBRACE FAILURE AS TELEMETRY
-When code breaks or a simulation crashes, the failure provides the highest-signal insight into how the system really works.
-```
-
----
-
-## `06 // CONTACT`
+Open to **on-site internships in Chennai** (software, backend, AI). If you're building something with LLMs, voice, or edge hardware, or you want to compare notes on shipping student projects, message me.
 
 <div align="center">
 
-**Interested in collaborating on AI systems, backend architecture, security simulations, or hackathons?**
+[![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-charan111/)
+[![Email](https://img.shields.io/badge/-Email%20me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:saicharan312008@gmail.com)
+[![Portfolio](https://img.shields.io/badge/-Open%20portfolio-1c2541?style=flat-square&logo=googlechrome&logoColor=white)](https://saicharan-web.pages.dev)
 
-<br>
+<sub>Also known as <b>Meda Venkata Sai Charan</b> · GitHub <code>NINJA981</code></sub>
 
-<a href="https://github.com/NINJA981">
-  <img src="https://img.shields.io/badge/GitHub-NINJA981-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/sai-charan-9b8143282/">
-  <img src="https://img.shields.io/badge/LinkedIn-Sai_Charan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-&nbsp;
-<a href="mailto:contact@ninja981.dev">
-  <img src="https://img.shields.io/badge/Email-Get_in_Touch-38bdf8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-
-<br><br>
-
-<img src="./assets/footer.svg" alt="System Persistence Footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a506b,100:0b132b&height=110&section=footer" width="100%" alt=""/>
 
 </div>
