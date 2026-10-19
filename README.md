@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,50:1c2541,100:3a506b&height=220&section=header&text=Sai%20Charan&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Software%20%26%20AI%20Engineer%20%C2%B7%20Chennai&descSize=20&descAlignY=60&descColor=9fb3c8" alt="Sai Charan, Software and AI Engineer" width="100%"/>
+<img src="./assets/banner.svg" alt="Sai Charan, Software and AI Engineer, Chennai" width="100%"/>
 
 <a href="https://saicharan-web.pages.dev">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=5BC0BE&center=true&vCenter=true&width=700&lines=I+build+AI+products+that+actually+ship;Raspberry+Pi+%2B+LLMs+%2B+real+classrooms;Voice+agents%2C+RAG%2C+and+backend+systems;ML+Developer+Intern+%40+BenX+%C2%B7+CSE+%40+Sathyabama" alt="typing intro"/>
@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/status-open%20to%20internships-2ea44f?style=flat-square" alt="open to internships"/>
   <img src="https://img.shields.io/badge/location-Chennai%2C%20India-3a506b?style=flat-square" alt="Chennai"/>
   <img src="https://img.shields.io/badge/CGPA-8.76-5bc0be?style=flat-square" alt="CGPA 8.76"/>
-  <img src="https://komarev.com/ghpvc/?username=NINJA981&label=profile%20views&color=3a506b&style=flat-square" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/NINJA981?style=flat-square&logo=github&color=3a506b" alt="followers"/>
 </p>
 
 <sub><a href="#-about">About</a> · <a href="#-featured-work">Featured work</a> · <a href="#-how-it-works">How it works</a> · <a href="#-client-work">Client work</a> · <a href="#-stack">Stack</a> · <a href="#-wins--community">Wins</a> · <a href="#-activity">Activity</a> · <a href="#-lets-talk">Contact</a></sub>
@@ -214,6 +214,6 @@ Open to **on-site internships in Chennai** (software, backend, AI). If you're bu
 
 <sub>Also known as <b>Meda Venkata Sai Charan</b> · GitHub <code>NINJA981</code></sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a506b,100:0b132b&height=110&section=footer" width="100%" alt=""/>
+<img src="./assets/footer-wave.svg" width="100%" alt=""/>
 
 </div>
