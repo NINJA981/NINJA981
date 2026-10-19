@@ -1,0 +1,73 @@
+name: Connect 4
+
+# A visitor opens an issue titled "c4|move|N" or "c4|new"; this workflow plays
+# the move, re-renders the board, commits the result and answers on the issue.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# One game, one move at a time: queue runs instead of cancelling them.
+concurrency:
+  group: connect4
+  cancel-in-progress: false
+
+jobs:
+  play:
+    # Only c4| titles, and never issues opened by bots.
+    if: >-
+      github.event.issue.user.type != 'Bot' &&
+      startsWith(github.event.issue.title, 'c4|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      # Untrusted values reach the script ONLY through env: never interpolated
+      # into the shell script text.
+      - name: Play the move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node game/connect4.mjs
+
+      - name: Commit the new board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add game/state.json assets/game/*.svg README.md
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Connect 4: update board"
+          for attempt in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            echo "Push attempt $attempt failed; retrying..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file game/out.md
+          gh issue close "$ISSUE_NUMBER" --reason completed
+
+      # If anything above failed, still tell the visitor and close the issue.
+      - name: Report a failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "Sorry, something went wrong while playing that move. Please try again in a moment." || true
+          gh issue close "$ISSUE_NUMBER" --reason "not planned" || true

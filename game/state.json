@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "rev": 2,
+  "status": "playing",
+  "turn": "human",
+  "moves": 0,
+  "board": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "lastMove": null,
+  "botMove": null,
+  "stats": {
+    "games": 0,
+    "humanWins": 0,
+    "botWins": 0,
+    "draws": 0
+  },
+  "recent": []
+}

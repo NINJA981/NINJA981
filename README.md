@@ -1,63 +1,317 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img alt="Sai Charan, software and AI engineer in Chennai. Open to on-site internships." src="./assets/hero-light.svg" width="100%">
-  </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/hero-light.svg">
+  <img alt="Sai Charan, software and AI engineer in Chennai. Software, AI systems, edge hardware." src="./assets/brand/hero-light.svg" width="100%">
+</picture>
+
+<b>Open to on-site internships · Chennai</b><br>
+B.E. CSE '29 at Sathyabama (CGPA 8.76) · Machine Learning Intern at BenX Solutions · Back End Developer at <a href="https://www.loopfound.in/">LoopFound</a>
+
+<a href="#selected-work">Selected work</a> · <a href="#how-it-works">How it works</a> · <a href="#client-work">Client work</a> · <a href="#stack">Stack</a> · <a href="#wins">Wins</a> · <a href="#live">Live</a> · <a href="#contact">Contact</a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/numbers-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/numbers-light.svg">
+  <img alt="5 products built, 2,500+ automated tests across projects, 5 podium finishes, 2 client stores." src="./assets/brand/numbers-light.svg" width="100%">
+</picture>
+
 </div>
 
-Chennai · B.E. CSE '29 at Sathyabama (CGPA 8.76) · ML Developer Intern at BenX Solutions
+## About
 
 I build software that gets used: a classroom that writes its own quizzes from the lecture, a journal that remembers, a browser extension people keep their streaks in. TypeScript and Postgres by default, Python or Kotlin when the problem needs them. I use AI coding agents heavily. Architecture, tests and review are mine.
 
+Currently looking for an **on-site software, backend or AI internship in Chennai**. Portfolio at [charan.loopfound.in](https://charan.loopfound.in/).
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
+
 ## Selected work
 
-- **ClassIQ** (BenX Solutions, private repo): AI classroom platform. A Raspberry Pi records the lecture, Indian-language speech-to-text and an LLM turn it into bilingual quizzes, and a multi-school admin console runs it. *Team of 4, 500+ tests, CI/CD.* `TypeScript` `Postgres` `BullMQ` `Next.js`
-- **[Solace](https://github.com/NINJA981/Solace-Diaries)** ([live](https://solace-diaries.vercel.app)): a private journal you can question. Semantic search with pgvector, answers that cite your own entries. *About 330 tests, durable job queue, row-level security.* `React` `Express` `Postgres` `Gemini`
-- **[LeetX Squads](https://github.com/NINJA981/LeetX)**: browser extension that turns LeetCode into a habit you keep with friends: streaks, spaced review, squads, 1v1 duels. *Firebase rules tested on the emulator, about 80 tests, releases built by CI for Chrome and Firefox.* `JavaScript` `Firebase`
-- **[CryptoTrace](https://github.com/NINJA981/cryptotrace)** ([live](https://cryptotrace-sand.vercel.app)): traces unknown crypto wallets to the exchange that likely holds them, with explainable scoring. *Built solo for Smart India Hackathon.* `FastAPI` `Next.js`
-- **JARVIS** (private repo, demo on request): voice-first AI layer for Windows. One router across Claude, OpenAI, Gemini and Ollama, a permission gate on every action, 11 MCP tool servers, an Android companion. *Built with AI coding agents, 1,100+ tests.* `TypeScript` `Electron`
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://charan.loopfound.in/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-classiq-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-classiq-light.svg">
+  <img alt="ClassIQ: a Raspberry Pi records a lecture and a quiz appears on a student's phone" src="./assets/brand/card-classiq-light.svg" width="100%">
+</picture>
+</a>
+<p><b>ClassIQ <sup>BenX Solutions</sup></b><br>AI classroom platform. A Raspberry Pi records the lecture, speech-to-text for Indian languages and an LLM turn it into bilingual quizzes that run on students' phones. Multi-school admin, timed exams, AI grading help.</p>
+<p><sub><b>Team of 4 · 500+ tests · CI/CD · Docker + Coolify</b> · private repo, walkthrough on request</sub></p>
+<p><code>Express 5</code> <code>Socket.IO</code> <code>PostgreSQL</code> <code>BullMQ</code> <code>Next.js</code> <code>Raspberry Pi</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/NINJA981/Solace-Diaries">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-solace-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-solace-light.svg">
+  <img alt="Solace: a journal page embedded into a field of points, with the closest memories lit up" src="./assets/brand/card-solace-light.svg" width="100%">
+</picture>
+</a>
+<p><b>Solace <sup><a href="https://solace-diaries.vercel.app">live</a> · <a href="https://github.com/NINJA981/Solace-Diaries">code</a></sup></b><br>A private journal you can question. Semantic search with pgvector, and answers that cite the entries they came from. Entries are analysed in the background by a durable job queue.</p>
+<p><sub><b>About 330 tests · row-level security · hybrid vector + keyword search</b></sub></p>
+<p><code>React 19</code> <code>Express 5</code> <code>Postgres + pgvector</code> <code>Gemini</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/NINJA981/LeetX">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-leetx-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-leetx-light.svg">
+  <img alt="LeetX Squads: a streak grid with streak, freeze, duel and squad features" src="./assets/brand/card-leetx-light.svg" width="100%">
+</picture>
+</a>
+<p><b>LeetX Squads <sup><a href="https://github.com/NINJA981/LeetX">code</a></sup></b><br>Browser extension that turns LeetCode into a habit you keep with friends: streaks and freezes, spaced review, squads, 1v1 duels and automatic GitHub backup of every accepted solution.</p>
+<p><sub><b>About 80 tests · Firebase rules tested on the emulator · CI-built Chrome and Firefox releases</b></sub></p>
+<p><code>JavaScript (MV3)</code> <code>Firebase</code> <code>GitHub Actions</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/NINJA981/cryptotrace">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-cryptotrace-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-cryptotrace-light.svg">
+  <img alt="CryptoTrace: unknown wallets traced through hops to the exchange that likely holds them" src="./assets/brand/card-cryptotrace-light.svg" width="100%">
+</picture>
+</a>
+<p><b>CryptoTrace <sup><a href="https://cryptotrace-sand.vercel.app">live</a> · <a href="https://github.com/NINJA981/cryptotrace">code</a></sup></b><br>Traces unknown crypto wallets through bounded transaction hops to the exchange that most likely holds them, with an explainable five-factor score and a requisition dossier.</p>
+<p><sub><b>Built solo for Smart India Hackathon · tested · documented limits</b></sub></p>
+<p><code>FastAPI</code> <code>Next.js</code> <code>Etherscan / TronGrid</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://charan.loopfound.in/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-jarvis-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-jarvis-light.svg">
+  <img alt="JARVIS: a supervisor in the middle with eight specialist agents around it" src="./assets/brand/card-jarvis-light.svg" width="100%">
+</picture>
+</a>
+<p><b>JARVIS <sup>built with AI coding agents</sup></b><br>Voice-first AI layer for Windows. One router across Claude, OpenAI, Gemini and Ollama with failover and budgets, a supervisor with eight specialist agents, a permission gate on every action and 11 MCP tool servers.</p>
+<p><sub><b>1,100+ automated tests · Android companion</b> · private repo, demo on request</sub></p>
+<p><code>TypeScript</code> <code>Electron</code> <code>MCP</code> <code>Ollama</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://charan.loopfound.in/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-visionnav-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-visionnav-light.svg">
+  <img alt="VisionNav: a phone camera detects a pole and a car ahead of a walking path and speaks a warning" src="./assets/brand/card-visionnav-light.svg" width="100%">
+</picture>
+</a>
+<p><b>VisionNav</b><br>On-device Android navigation for blind and low-vision pedestrians: walking routes, live camera hazard detection and crossing awareness through voice and haptics. It never claims a road is safe.</p>
+<p><sub><b>500+ unit tests on the core</b> · field testing in progress</sub></p>
+<p><code>Kotlin</code> <code>CameraX</code> <code>YOLOv8n</code> <code>LiteRT</code></p>
+</td>
+</tr>
+</table>
 
-<details>
-<summary><b>How ClassIQ turns a lecture into a quiz</b></summary>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
 
-```mermaid
-flowchart LR
-    Pi["Raspberry Pi 5<br/>lecture recorder"] -->|audio| API["Express 5 + Socket.IO"]
-    API --> STT["Speech-to-text<br/>Indian languages"]
-    STT --> LLM["LLM<br/>bilingual quizzes"]
-    LLM --> DB[("PostgreSQL<br/>+ BullMQ jobs")]
-    API --> DB
-    DB --> Web["Next.js PWA<br/>admin · teacher · student"]
-```
+## How it works
 
+<details open>
+<summary><b>ClassIQ: from a lecture to a quiz</b></summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/arch-classiq-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/arch-classiq-light.svg">
+  <img alt="ClassIQ pipeline: Raspberry Pi 5 recorder, Express 5 API with Socket.IO, speech-to-text for Indian languages, LLM bilingual quizzes, PostgreSQL with BullMQ jobs, Next.js PWA." src="./assets/brand/arch-classiq-light.svg" width="100%">
+</picture>
 </details>
 
-## Also built
+<details>
+<summary><b>JARVIS: one voice command, many agents</b></summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/arch-jarvis-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/arch-jarvis-light.svg">
+  <img alt="JARVIS: wake word and speech recognition feed a supervisor that delegates to eight specialist agents, every action passes a permission gate, then 11 MCP servers act on the Windows PC. A model router connects Claude, OpenAI, Gemini and Ollama." src="./assets/brand/arch-jarvis-light.svg" width="100%">
+</picture>
+</details>
 
-- **VisionNav**: Android navigation for blind and low-vision pedestrians, on-device YOLOv8n hazard detection. 500+ unit tests on the core; field testing in progress.
-- **[VADA](https://github.com/NINJA981/vada)**: voice-native RAG with hybrid retrieval and an "is this answerable?" gate, benchmarked for recall and latency.
-- **SafeCanteen**: canteen pre-ordering where money and capacity rules live in the database. Tested with 200 students racing for 20 portions.
-- **[ORION 1.0](https://github.com/NINJA981/orion-1.0)** ([live](https://orion-sathyabama.vercel.app)): registration and Razorpay payments for a 24-hour national hackathon.
-- **[ResponSync](https://github.com/NINJA981/RS)**: AI digital twin for flood response. I built the backend.
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
 
 ## Client work
 
-- **NCS Santhanam** (silk sarees): store, admin and background worker. Razorpay webhooks, oversell-safe stock, Terraform and CI/CD with rollback.
-- **Methagu Karuppatti** (palm jaggery): bilingual English/Tamil store. Razorpay and COD, GST invoices, Playwright end-to-end tests.
+Production stores built for real businesses, with real payments:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://charan.loopfound.in/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-ncs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-ncs-light.svg">
+  <img alt="A silk saree storefront with products, cart, checkout and admin" src="./assets/brand/card-ncs-light.svg" width="100%">
+</picture>
+</a>
+<p><b>NCS Santhanam <sup>client work</sup></b><br>Silk saree store with admin console and background worker. Razorpay webhooks that are safe to retry, oversell-safe stock reservation, payment-hold expiry.</p>
+<p><sub><b>Terraform + CI/CD with rollback · k6 load test · Playwright E2E</b></sub></p>
+<p><code>Next.js</code> <code>Prisma</code> <code>Redis</code> <code>BullMQ</code> <code>Razorpay</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://charan.loopfound.in/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-methagu-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-methagu-light.svg">
+  <img alt="A bilingual English and Tamil palm jaggery store with checkout and admin" src="./assets/brand/card-methagu-light.svg" width="100%">
+</picture>
+</a>
+<p><b>Methagu Karuppatti <sup>client work</sup></b><br>Bilingual (English and Tamil) palm jaggery store. Razorpay and cash on delivery, coupons, refunds, GST invoices, admin analytics.</p>
+<p><sub><b>Playwright E2E with accessibility checks · CSP, CSRF, rate limiting</b></sub></p>
+<p><code>Next.js</code> <code>Drizzle</code> <code>PostgreSQL</code> <code>Razorpay</code></p>
+</td>
+</tr>
+</table>
+
+**Also built:** [VADA](https://github.com/NINJA981/vada) (voice RAG with hybrid retrieval, benchmarked) · SafeCanteen (canteen pre-ordering, money and capacity rules in the database) · [ResponSync](https://github.com/NINJA981/RS) (flood-response digital twin, I built the backend) · OpenShield (dependency and licence risk scanner with SBOM export).
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
 
 ## Stack
 
-**Languages** TypeScript, Python, Java, Kotlin, SQL, C  
-**Web** React, Next.js, Node, Express, Fastify, Tailwind  
-**Data** PostgreSQL (pgvector), Redis, BullMQ, Supabase, SQLite, Firebase  
-**AI** OpenAI, Gemini, Claude and Ollama APIs, RAG, speech-to-text, MCP, n8n  
-**Infra** Docker, GitHub Actions, Cloudflare, Vercel, Raspberry Pi, Linux
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/stack-light.svg">
+  <img alt="Languages: TypeScript, Python, Java, Kotlin, SQL, C. Web: React, Next.js, Node.js, Express, Fastify, Tailwind. Data: PostgreSQL, pgvector, Redis, BullMQ, Supabase, SQLite, Firebase. AI: OpenAI, Gemini, Claude, Ollama, RAG, speech-to-text, MCP, n8n. Infra: Docker, GitHub Actions, Cloudflare, Vercel, Raspberry Pi, Linux." src="./assets/brand/stack-light.svg" width="100%">
+</picture>
+</div>
 
-## Recognition
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
 
-1st at Hack the Vibe and Code in the Dark. 2nd at ProtoTech and PromptCraft. 3rd at Aurora. Special Mention at Rush Hour. Luminary Award, sole all-rounder of the first-year batch. Instructor for an n8n workshop, speaker at WebXplore, organiser of CodeStorm and Crackathon.
+## Wins
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/timeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/timeline-light.svg">
+  <img alt="Wins timeline from October 2025 to September 2026: Code in the Dark 1st, VIT HackCrate 5th, Luminary Award, Hack The Planet 4th, Rush Hour special mention, Aurora 3rd, ProtoTech 2nd, PromptCraft 2nd." src="./assets/brand/timeline-light.svg" width="100%">
+</picture>
+</div>
+
+<details>
+<summary>The list, in text</summary>
+
+- 1st: Hack the Vibe · Code in the Dark
+- 2nd: ProtoTech · PromptCraft (TechnoSummit)
+- 3rd: Aurora · 4th: Hack The Planet · 5th: VIT HackCrate
+- Special Mention at Rush Hour, with an internship offer
+- Luminary Award: sole all-rounder of the first-year batch
+- Instructor (n8n workshop), speaker (WebXplore), organiser (CodeStorm, Crackathon), started the Forge developer community
+
+</details>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
+
+## Live
+
+<div align="center">
+
+<!-- LANG:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=22f41f05">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=22f41f05">
+  <img alt="Language share across public repos: TypeScript 39.2%, HTML 31.1%, Python 18.4%, JavaScript 6.3%, Kotlin 1.5%, Shell 1.3%, CSS 1.1%, Other 1.1%" src="./assets/live/languages-light.svg?v=22f41f05" width="100%">
+</picture>
+<!-- LANG:END -->
+
+</div>
+
+**Recently shipped** (public repositories, refreshed automatically)
+
+<!-- ACTIVITY:START -->
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 5 days ago
+- **[visionary](https://github.com/NINJA981/visionary)**: feat(routing): implement Phase 4 Valhalla pedestrian routing engine, debounced rerouting,… · 4 weeks ago
+<!-- ACTIVITY:END -->
+
+<details>
+<summary><b>Play Connect-4 against my bot</b></summary>
+<br>
+
+<!-- C4:START -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/game/board-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/game/board-light.svg?v=2">
+  <img alt="Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 0 discs have been played. From bottom to top, column 1: empty; column 2: empty; column 3: empty; column 4: empty; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn." src="./assets/game/board-light.svg?v=2" width="420">
+</picture>
+
+**Your move!** You are orange and you go first. Pick a column to drop a disc.
+
+[1](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C1&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [2](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C2&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [3](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C3&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [4](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C4&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [5](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C5&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [6](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C6&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [7](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C7&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.)
+
+<sub>Games played 0 · Visitor wins 0 · Bot wins 0 · Draws 0</sub>
+
+</div>
+<!-- C4:END -->
+
+</details>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/divider-light.svg">
+  <img alt="" src="./assets/brand/divider-light.svg" width="100%">
+</picture>
+</div>
 
 ## Contact
 
-[Email](mailto:saicharan312008@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sai-charan111/) · [Portfolio](https://saicharan-web.pages.dev) · [LeetCode](https://leetcode.com/NINJA981/) · [Resume (PDF)](https://saicharan-web.pages.dev/Sai_Charan_CV.pdf)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/contact-light.svg">
+  <img alt="Let's talk. Open to on-site internships in Chennai for software, backend and AI work. Email saicharan312008@gmail.com." src="./assets/brand/contact-light.svg" width="100%">
+</picture>
+
+<a href="mailto:saicharan312008@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/sai-charan111/">LinkedIn</a> · <a href="https://charan.loopfound.in/">Portfolio</a> · <a href="https://leetcode.com/NINJA981/">LeetCode</a> · <a href="https://charan.loopfound.in/Sai_Charan_CV.pdf">Resume (PDF)</a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/footer-light.svg">
+  <img alt="" src="./assets/brand/footer-light.svg" width="100%">
+</picture>
+</div>
