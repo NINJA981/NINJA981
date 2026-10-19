@@ -274,16 +274,16 @@ Production stores built for real businesses, with real payments:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/game/board-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/game/board-light.svg?v=2">
-  <img alt="Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 0 discs have been played. From bottom to top, column 1: empty; column 2: empty; column 3: empty; column 4: empty; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn." src="./assets/game/board-light.svg?v=2" width="420">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/game/board-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/game/board-light.svg?v=3">
+  <img alt="Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 2 discs have been played. The last disc went into column 4. From bottom to top, column 1: empty; column 2: empty; column 3: empty; column 4: visitor, bot; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn." src="./assets/game/board-light.svg?v=3" width="420">
 </picture>
 
-**Your move!** You are orange and you go first. Pick a column to drop a disc.
+**Your move!** You are orange. Pick a column to drop your disc.
 
 [1](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C1&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [2](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C2&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [3](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C3&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [4](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C4&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [5](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C5&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [6](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C6&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.) &nbsp;·&nbsp; [7](https://github.com/NINJA981/NINJA981/issues/new?title=c4%7Cmove%7C7&body=Just+press+%22Submit+new+issue%22.+The+move+is+played+automatically.)
 
-<sub>Games played 0 · Visitor wins 0 · Bot wins 0 · Draws 0</sub>
+<sub>Games played 0 · Visitor wins 0 · Bot wins 0 · Draws 0 · Last move by @NINJA981</sub>
 
 </div>
 <!-- C4:END -->
