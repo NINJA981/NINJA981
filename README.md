@@ -38,7 +38,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://charan.loopfound.in/">
+<a href="https://charan.loopfound.in/projects/classiq/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-classiq-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-classiq-light.svg">
@@ -50,7 +50,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 <p><code>Express 5</code> <code>Socket.IO</code> <code>PostgreSQL</code> <code>BullMQ</code> <code>Next.js</code> <code>Raspberry Pi</code></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NINJA981/Solace-Diaries">
+<a href="https://charan.loopfound.in/projects/solace/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-solace-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-solace-light.svg">
@@ -64,7 +64,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/NINJA981/LeetX">
+<a href="https://charan.loopfound.in/projects/leetx/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-leetx-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-leetx-light.svg">
@@ -76,7 +76,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 <p><code>JavaScript (MV3)</code> <code>Firebase</code> <code>GitHub Actions</code></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NINJA981/cryptotrace">
+<a href="https://charan.loopfound.in/projects/cryptotrace/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-cryptotrace-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-cryptotrace-light.svg">
@@ -90,7 +90,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://charan.loopfound.in/">
+<a href="https://charan.loopfound.in/projects/jarvis/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-jarvis-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-jarvis-light.svg">
