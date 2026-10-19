@@ -262,7 +262,7 @@ Production stores built for real businesses, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 5 days ago
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 6 days ago
 - **[visionary](https://github.com/NINJA981/visionary)**: feat(routing): implement Phase 4 Valhalla pedestrian routing engine, debounced rerouting,… · 4 weeks ago
 <!-- ACTIVITY:END -->
 
