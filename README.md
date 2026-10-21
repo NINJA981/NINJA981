@@ -274,8 +274,7 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 6 days ago
-- **[visionary](https://github.com/NINJA981/visionary)**: feat(routing): implement Phase 4 Valhalla pedestrian routing engine, debounced rerouting,… · 4 weeks ago
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 7 days ago
 <!-- ACTIVITY:END -->
 
 <details>
