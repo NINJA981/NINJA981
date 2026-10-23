@@ -274,7 +274,7 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 8 days ago
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 9 days ago
 <!-- ACTIVITY:END -->
 
 <details>
