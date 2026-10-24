@@ -286,9 +286,9 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/game/board-dark.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/game/board-light.svg?v=5">
-  <img alt="Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 2 discs have been played. The last disc went into column 4. From bottom to top, column 1: empty; column 2: empty; column 3: visitor; column 4: bot; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn." src="./assets/game/board-light.svg?v=5" width="420">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/game/board-dark.svg?v=6">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/game/board-light.svg?v=6">
+  <img alt="Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 4 discs have been played. The last disc went into column 4. From bottom to top, column 1: empty; column 2: empty; column 3: visitor; column 4: bot, visitor, bot; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn." src="./assets/game/board-light.svg?v=6" width="420">
 </picture>
 
 **Your move!** You are orange. Pick a column to drop your disc.

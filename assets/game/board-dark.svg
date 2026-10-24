@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" role="img" aria-labelledby="t d">
 <title id="t">Connect 4: game in progress</title>
-<desc id="d">Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 2 discs have been played. The last disc went into column 4. From bottom to top, column 1: empty; column 2: empty; column 3: visitor; column 4: bot; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn.</desc>
+<desc id="d">Connect 4 board with 7 columns and 6 rows. Visitors play orange and the bot plays the other colour. 4 discs have been played. The last disc went into column 4. From bottom to top, column 1: empty; column 2: empty; column 3: visitor; column 4: bot, visitor, bot; column 5: empty; column 6: empty; column 7: empty. The game is in progress and it is the visitors' turn.</desc>
 <style>.e{fill:#12100c}.h{fill:#ff7a18;stroke:#ffb347;stroke-width:4}.b{fill:#ece6d6;stroke:#b9b09a;stroke-width:4}.i{fill:none;stroke-width:3;stroke-opacity:.45}.h+.i{stroke:#ffb347}.b+.i{stroke:#b9b09a}</style>
 <rect x="4" y="4" width="752" height="652" rx="28" fill="#1a1712" stroke="#2c2820" stroke-width="4"/>
 <circle class="e" cx="80" cy="80" r="40"/>
@@ -28,6 +28,8 @@
 <circle class="e" cx="180" cy="380" r="40"/>
 <circle class="e" cx="280" cy="380" r="40"/>
 <circle class="e" cx="380" cy="380" r="40"/>
+<circle class="b" cx="380" cy="380" r="38"/>
+<circle class="i" cx="380" cy="380" r="25"/>
 <circle class="e" cx="480" cy="380" r="40"/>
 <circle class="e" cx="580" cy="380" r="40"/>
 <circle class="e" cx="680" cy="380" r="40"/>
@@ -35,6 +37,8 @@
 <circle class="e" cx="180" cy="480" r="40"/>
 <circle class="e" cx="280" cy="480" r="40"/>
 <circle class="e" cx="380" cy="480" r="40"/>
+<circle class="h" cx="380" cy="480" r="38"/>
+<circle class="i" cx="380" cy="480" r="25"/>
 <circle class="e" cx="480" cy="480" r="40"/>
 <circle class="e" cx="580" cy="480" r="40"/>
 <circle class="e" cx="680" cy="480" r="40"/>
@@ -49,5 +53,5 @@
 <circle class="e" cx="480" cy="580" r="40"/>
 <circle class="e" cx="580" cy="580" r="40"/>
 <circle class="e" cx="680" cy="580" r="40"/>
-<circle cx="380" cy="580" r="45" fill="none" stroke="#ffb347" stroke-width="3"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="380" cy="380" r="45" fill="none" stroke="#ffb347" stroke-width="3"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
 </svg>
