@@ -263,9 +263,9 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=cd61e676">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=cd61e676">
-  <img alt="Language share across public repos: TypeScript 59.0%, Python 27.7%, JavaScript 9.5%, Kotlin 2.2%, Jupyter Notebook 1.5%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=cd61e676" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=7b8df1ad">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=7b8df1ad">
+  <img alt="Language share across public repos: TypeScript 59.0%, Python 27.8%, JavaScript 9.5%, Kotlin 2.2%, Jupyter Notebook 1.4%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=7b8df1ad" width="100%">
 </picture>
 <!-- LANG:END -->
 
@@ -274,7 +274,8 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: deploy: point web CSP at the live API · 9 days ago
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: one-call enrichment, model routing, usage meter, verified fixes · today
+- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · today
 <!-- ACTIVITY:END -->
 
 <details>
