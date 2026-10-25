@@ -274,8 +274,8 @@ The part that matters on a real store: stock is reserved with a conditional `UPD
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: one-call enrichment, model routing, usage meter, verified fixes · today
-- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · today
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: web: design critique pass — teen flags, modal Unwrapped, mobile Today, a11y · today
+- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · yesterday
 <!-- ACTIVITY:END -->
 
 <details>
