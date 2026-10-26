@@ -69,7 +69,7 @@ def hero(theme):
 def numbers(theme):
     w, h = 1200, 188
     d = Doc(w, h, theme, "By the numbers",
-            "5 products built, 2,500+ automated tests across projects, 5 podium finishes, 2 client stores.")
+            "5 products built, 2,500+ automated tests across projects, 5 podium finishes, 1 client store.")
     t = d.t
     cid = _frame(d, w, h, 20)
     _grid(d, w, h, cid)
@@ -77,7 +77,7 @@ def numbers(theme):
         ("5", "PRODUCTS BUILT", "ClassIQ to JARVIS"),
         ("2,500+", "AUTOMATED TESTS", "across my projects"),
         ("5", "PODIUM FINISHES", "hackathons and contests"),
-        ("2", "CLIENT STORES", "real businesses, real payments"),
+        ("1", "CLIENT STORE", "a real business, real payments"),
     ]
     colw = w / 4
     for i, (num, lab, sub) in enumerate(items):

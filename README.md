@@ -14,7 +14,7 @@ B.E. CSE '29 at Sathyabama (CGPA 8.76) · Machine Learning Intern at BenX Soluti
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/numbers-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/numbers-light.svg">
-  <img alt="5 products built, 2,500+ automated tests across projects, 5 podium finishes, 2 client stores." src="./assets/brand/numbers-light.svg" width="100%">
+  <img alt="5 products built, 2,500+ automated tests across projects, 5 podium finishes, 1 client store." src="./assets/brand/numbers-light.svg" width="100%">
 </picture>
 
 </div>
@@ -156,22 +156,10 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 
 ## Client work
 
-Production stores built for real businesses, with real payments:
+A production store built for a real business, with real payments:
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://charan.loopfound.in/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/card-ncs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/card-ncs-light.svg">
-  <img alt="NCS Santhanam, from the real store: the peacock logo and three silk saree photographs with the Kanchipuram, soft silk and wedding collections" src="./assets/brand/card-ncs-light.svg" width="100%">
-</picture>
-</a>
-<p><b>NCS Santhanam <sup>client work</sup></b><br>Silk saree store with admin console and background worker. Razorpay webhooks that are safe to retry, oversell-safe stock reservation, payment-hold expiry.</p>
-<p><sub><b>about 45 tests · 3 CI/CD workflows with rollback · Terraform · k6 load test</b></sub></p>
-<p><code>Next.js</code> <code>Prisma</code> <code>Redis</code> <code>BullMQ</code> <code>Razorpay</code></p>
-</td>
 <td width="50%" valign="top">
 <a href="https://charan.loopfound.in/">
 <picture>
@@ -186,18 +174,6 @@ Production stores built for real businesses, with real payments:
 </td>
 </tr>
 </table>
-
-<details open>
-<summary><b>Under the hood: a payment that cannot be charged twice or oversold</b></summary>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/arch-payments-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/brand/arch-payments-light.svg">
-  <img alt="A buyer checks out and stock is reserved with a conditional update. Razorpay takes the payment and a signed, idempotent webhook confirms the order. If the payment never arrives, a BullMQ job releases the stock." src="./assets/brand/arch-payments-light.svg" width="100%">
-</picture>
-
-The part that matters on a real store: stock is reserved with a conditional `UPDATE` plus a `CHECK` constraint, so two buyers cannot take the last saree. The webhook verifies the Razorpay signature and is idempotent, so a retried call cannot confirm an order twice. A BullMQ worker puts stock back when a payment never completes.
-</details>
 
 **Also built:** [VADA](https://github.com/NINJA981/vada) (voice RAG with hybrid retrieval, benchmarked) · SafeCanteen (canteen pre-ordering, money and capacity rules in the database) · [ResponSync](https://github.com/NINJA981/RS) (flood-response digital twin, I built the backend) · OpenShield (dependency and licence risk scanner with SBOM export).
 

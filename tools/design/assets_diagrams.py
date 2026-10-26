@@ -154,36 +154,9 @@ def jarvis(theme):
     return save(d, "arch-jarvis")
 
 
-def payments(theme):
-    d = frame(theme, "How a payment stays safe",
-              "A buyer checks out, stock is reserved with a conditional update, Razorpay takes the payment, a signed and idempotent webhook confirms the order. If the payment never arrives, a BullMQ job releases the stock.",
-              "CLIENT WORK  ·  A PAYMENT THAT CANNOT BE CHARGED TWICE")
-    t = d.t
-    items = [
-        ("Checkout", ["cart to", "order"], ic_phone),
-        ("Reserve stock", ["conditional UPDATE", "+ CHECK constraint"], ic_db),
-        ("Razorpay", ["pays the", "order"], ic_plug),
-        ("Webhook", ["signature checked,", "idempotent"], ic_shield),
-        ("Confirmed", ["retries cannot", "confirm it twice"], ic_api),
-    ]
-    x0, nw, gap, y, nh = 50, 170, 62.5, 98, 178
-    for i, (title, sub, ic) in enumerate(items):
-        x = x0 + i * (nw + gap)
-        node(d, x, y, nw, nh, title, sub, ic, title_size=20)
-        if i < len(items) - 1:
-            arrow(d, x + nw + 4, y + 90, x + nw + gap - 2, y + 90)
-    d.rect(50, 306, 1100, 92, 16, fill=t["surface"], stroke=t["border"], sw=1.5)
-    d.text(80, 340, "IF THE PAYMENT NEVER ARRIVES", "mono", 15, t["accent"], weight=600, ls=2)
-    d.text(80, 374, "BullMQ worker  ·  payment-hold expiry job  ·  stock goes back on the shelf", "sg", 20, t["text"], weight=500)
-    d.text(1120, 340, "TWO BUYERS, ONE LAST SAREE", "mono", 13, t["muted"], weight=600, anchor="end", ls=2)
-    d.text(1120, 374, "only one wins", "fr", 22, t["text"], weight=600, anchor="end")
-    border(d)
-    return save(d, "arch-payments")
-
-
 def build_all():
     out = []
     for th in ("dark", "light"):
-        for fn in (classiq, jarvis, payments):
+        for fn in (classiq, jarvis):
             out.append(fn(th))
     return out

@@ -279,12 +279,6 @@ def store(theme, key, eyebrow, title, desc, swatches, lang_chip, pay_chip):
     return finish(d, key)
 
 
-def ncs(theme):
-    return store(theme, "card-ncs", "CLIENT  ·  COMMERCE", "NCS Santhanam store",
-                 "A silk saree storefront with products, cart, checkout and admin.",
-                 ["#b3202f", "#d9a441", "#1f6f6a", "#3b2a78", "#2f7d4f"], "EN", "RAZORPAY")
-
-
 def methagu(theme):
     return store(theme, "card-methagu", "CLIENT  ·  COMMERCE", "Methagu Karuppatti store",
                  "A bilingual English and Tamil palm jaggery store with checkout and admin.",

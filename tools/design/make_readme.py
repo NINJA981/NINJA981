@@ -33,8 +33,8 @@ def card(name, alt, title, body, proof, tags, link):
     )
 
 
-def row(a, b):
-    return "<tr>\n%s\n%s\n</tr>" % (a, b)
+def row(*cells):
+    return "<tr>\n%s\n</tr>" % "\n".join(cells)
 
 
 work = [
@@ -80,12 +80,6 @@ work3 = [
          ["Kotlin", "CameraX", "YOLOv8n", "LiteRT"], SITE),
 ]
 client = [
-    card("card-ncs", "A silk saree storefront with products, cart, checkout and admin",
-         "NCS Santhanam <sup>client work</sup>",
-         "Silk saree store with admin console and background worker. Razorpay webhooks that are safe to retry, "
-         "oversell-safe stock reservation, payment-hold expiry.",
-         "<b>Terraform + CI/CD with rollback · k6 load test · Playwright E2E</b>",
-         ["Next.js", "Prisma", "Redis", "BullMQ", "Razorpay"], SITE),
     card("card-methagu", "A bilingual English and Tamil palm jaggery store with checkout and admin",
          "Methagu Karuppatti <sup>client work</sup>",
          "Bilingual (English and Tamil) palm jaggery store. Razorpay and cash on delivery, coupons, refunds, GST invoices, "
@@ -140,7 +134,7 @@ Currently looking for an **on-site software, backend or AI internship in Chennai
 %(div)s
 ## Client work
 
-Production stores built for real businesses, with real payments:
+A production store built for a real business, with real payments:
 
 <table>
 %(c1)s
@@ -216,7 +210,7 @@ _Updating soon._
 </div>
 """ % {
     "hero": pic("hero", "Sai Charan, software and AI engineer in Chennai. Software, AI systems, edge hardware."),
-    "numbers": pic("numbers", "5 products built, 2,500+ automated tests across projects, 5 podium finishes, 2 client stores."),
+    "numbers": pic("numbers", "5 products built, 2,500+ automated tests across projects, 5 podium finishes, 1 client store."),
     "site": SITE,
     "div": divider(),
     "w1": row(*work),

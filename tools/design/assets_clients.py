@@ -10,7 +10,6 @@ from brand import Doc, save, _n
 SRC = os.environ.get("CLIENT_SRC", "X:/Projects")
 W, H = 600, 320
 
-NCS = os.path.join(SRC, "ncs", "ncs-santhanam", "public")
 MET = os.path.join(SRC, "navin-business-source", "public")
 
 
@@ -51,31 +50,6 @@ def _bg(d, c1, c2, accent):
     d.add('<rect width="%d" height="%d" rx="18" fill="url(#%s)"/>' % (W, H, pid))
 
 
-def ncs(theme):
-    d = Doc(W, H, theme, "NCS Santhanam silk saree store",
-            "Lookbook collage from the real NCS Santhanam store: the peacock logo and three silk saree photographs, with its collections Kanchipuram, soft silk and wedding.")
-    gold = "#d4a84b"
-    _bg(d, "#2b1456", "#150a2e", gold)
-    logo = jpeg_uri(os.path.join(NCS, "logo1.jpg"), 176, 65, q=80)
-    tile(d, logo, 24, 18, 176, 65, 8, border="#d4a84b55")
-    d.text(576, 38, "CLIENT WORK  ·  SILK SAREES", "mono", 12, gold, weight=600, anchor="end", ls=2)
-    d.text(576, 58, "STORE · ADMIN · WORKER", "mono", 11, "#b9a9d8", weight=500, anchor="end", ls=1.5)
-    imgs = [
-        ("images/hero/hero-main.png", (0.45, 0.4), 24, 100, 134, 196),
-        ("images/collections/kanchipuram.png", (0.5, 0.5), 168, 86, 134, 196),
-        ("images/products/p2.png", (0.55, 0.3), 312, 108, 134, 196),
-    ]
-    for rel, focus, x, y, w, h in imgs:
-        tile(d, jpeg_uri(os.path.join(NCS, rel), w, h, focus), x, y, w, h, 12, border="#d4a84b66")
-    for i, lab in enumerate(("KANCHIPURAM", "SOFT SILK", "WEDDING")):
-        y = 130 + i * 44
-        d.add('<line x1="462" y1="%d" x2="576" y2="%d" stroke="%s" stroke-width="1" opacity="0.5"/>' % (y - 16, y - 16, gold))
-        d.text(462, y + 2, lab, "mono", 13, "#f1e6c8", weight=600, ls=1.5)
-    d.text(462, 290, "RAZORPAY  ·  CI/CD", "mono", 10.5, "#b9a9d8", weight=500, ls=1)
-    d.add('<rect x="0.5" y="0.5" width="%d" height="%d" rx="18" fill="none" stroke="#d4a84b55"/>' % (W - 1, H - 1))
-    return save(d, "card-ncs")
-
-
 def methagu(theme):
     d = Doc(W, H, theme, "Methagu Karuppatti palm jaggery store",
             "Collage from the real Methagu Karuppatti store: the Tamil and English logo, palm jaggery being boiled in a cauldron, a jaggery block and a palm grove at sunrise.")
@@ -100,6 +74,5 @@ def methagu(theme):
 def build_all():
     out = []
     for th in ("dark", "light"):
-        out.append(ncs(th))
         out.append(methagu(th))
     return out
