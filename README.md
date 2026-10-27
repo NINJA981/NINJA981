@@ -250,7 +250,7 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: web: design critique pass — teen flags, modal Unwrapped, mobile Today, a11y · 2 days ago
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: web: design critique pass — teen flags, modal Unwrapped, mobile Today, a11y · 3 days ago
 - **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 3 days ago
 <!-- ACTIVITY:END -->
 
