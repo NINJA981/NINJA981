@@ -239,9 +239,9 @@ A production store built for a real business, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=7b8df1ad">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=7b8df1ad">
-  <img alt="Language share across public repos: TypeScript 59.0%, Python 27.8%, JavaScript 9.5%, Kotlin 2.2%, Jupyter Notebook 1.4%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=7b8df1ad" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=aea94385">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=aea94385">
+  <img alt="Language share across public repos: TypeScript 64.4%, Python 24.1%, JavaScript 8.3%, Kotlin 1.9%, Jupyter Notebook 1.2%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=aea94385" width="100%">
 </picture>
 <!-- LANG:END -->
 
@@ -251,7 +251,7 @@ A production store built for a real business, with real payments:
 
 <!-- ACTIVITY:START -->
 - **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: web: design critique pass — teen flags, modal Unwrapped, mobile Today, a11y · 3 days ago
-- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 3 days ago
+- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 4 days ago
 <!-- ACTIVITY:END -->
 
 <details>
