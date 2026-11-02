@@ -295,7 +295,7 @@ A production store built for a real business, with real payments:
   <img alt="Let's talk. Open to on-site internships in Chennai for software, backend and AI work. Email saicharan312008@gmail.com." src="./assets/brand/contact-light.svg" width="100%">
 </picture>
 
-<a href="mailto:saicharan312008@gmail.com"><picture>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=saicharan312008@gmail.com&su=Hello%20Sai%20Charan"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand/btn-email-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand/btn-email-light.svg">
   <img alt="Email Sai Charan at saicharan312008@gmail.com" src="./assets/brand/btn-email-light.svg" height="46">
