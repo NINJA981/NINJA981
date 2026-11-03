@@ -239,9 +239,9 @@ A production store built for a real business, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=aea94385">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=aea94385">
-  <img alt="Language share across public repos: TypeScript 64.4%, Python 24.1%, JavaScript 8.3%, Kotlin 1.9%, Jupyter Notebook 1.2%, PLpgSQL 0.1%" src="./assets/live/languages-light.svg?v=aea94385" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=c4f631ec">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=c4f631ec">
+  <img alt="Language share across public repos: TypeScript 64.7%, Python 26.1%, JavaScript 5.8%, Kotlin 2.1%, Jupyter Notebook 1.3%" src="./assets/live/languages-light.svg?v=c4f631ec" width="100%">
 </picture>
 <!-- LANG:END -->
 
@@ -250,9 +250,9 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[files](https://github.com/NINJA981/files)**: Add lab manual as Word file · yesterday
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: Brevo mail transport; web: daily keep-alive cron · 6 days ago
-- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 10 days ago
+- **[files](https://github.com/NINJA981/files)**: Add lab manual to Multisim zip · yesterday
+- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: Brevo mail transport; web: daily keep-alive cron · 7 days ago
+- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 11 days ago
 <!-- ACTIVITY:END -->
 
 <details>
