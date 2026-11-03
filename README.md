@@ -250,6 +250,7 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
+- **[files](https://github.com/NINJA981/files)**: Add lab manual as Word file · yesterday
 - **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: Brevo mail transport; web: daily keep-alive cron · 6 days ago
 - **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 10 days ago
 <!-- ACTIVITY:END -->
