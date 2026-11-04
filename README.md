@@ -239,9 +239,9 @@ A production store built for a real business, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=c4f631ec">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=c4f631ec">
-  <img alt="Language share across public repos: TypeScript 64.7%, Python 26.1%, JavaScript 5.8%, Kotlin 2.1%, Jupyter Notebook 1.3%" src="./assets/live/languages-light.svg?v=c4f631ec" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=1e057044">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=1e057044">
+  <img alt="Language share across public repos: TypeScript 67.2%, Python 18.1%, Kotlin 8.9%, JavaScript 5.0%, Jupyter Notebook 0.8%" src="./assets/live/languages-light.svg?v=1e057044" width="100%">
 </picture>
 <!-- LANG:END -->
 
@@ -250,9 +250,11 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[files](https://github.com/NINJA981/files)**: Add lab manual to Multisim zip · yesterday
-- **[Solace-Diaries](https://github.com/NINJA981/Solace-Diaries)**: api: Brevo mail transport; web: daily keep-alive cron · 7 days ago
-- **[hf21lm5](https://github.com/NINJA981/hf21lm5)**: Deploy on Vercel as static site + Python function; add live link · 11 days ago
+- **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · today
+- **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · today
+- **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · today
+- **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · today
+- **[catchline](https://github.com/NINJA981/catchline)**: Released catchline v0.1.0 · today
 <!-- ACTIVITY:END -->
 
 <details>
