@@ -250,11 +250,11 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · yesterday
-- **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · yesterday
-- **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · yesterday
-- **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · yesterday
-- **[catchline](https://github.com/NINJA981/catchline)**: Released catchline v0.1.0 · yesterday
+- **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · 2 days ago
+- **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · 2 days ago
+- **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · 2 days ago
+- **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · 2 days ago
+- **[catchline](https://github.com/NINJA981/catchline)**: Released catchline v0.1.0 · 2 days ago
 <!-- ACTIVITY:END -->
 
 <details>
