@@ -239,9 +239,9 @@ A production store built for a real business, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=1e057044">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=1e057044">
-  <img alt="Language share across public repos: TypeScript 67.2%, Python 18.1%, Kotlin 8.9%, JavaScript 5.0%, Jupyter Notebook 0.8%" src="./assets/live/languages-light.svg?v=1e057044" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=93dd2730">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=93dd2730">
+  <img alt="Language share across public repos: TypeScript 72.9%, Python 15.1%, Kotlin 7.2%, JavaScript 4.1%, Jupyter Notebook 0.7%" src="./assets/live/languages-light.svg?v=93dd2730" width="100%">
 </picture>
 <!-- LANG:END -->
 
