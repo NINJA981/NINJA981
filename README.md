@@ -239,9 +239,9 @@ A production store built for a real business, with real payments:
 
 <!-- LANG:START -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=93dd2730">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=93dd2730">
-  <img alt="Language share across public repos: TypeScript 72.9%, Python 15.1%, Kotlin 7.2%, JavaScript 4.1%, Jupyter Notebook 0.7%" src="./assets/live/languages-light.svg?v=93dd2730" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live/languages-dark.svg?v=c6bfb1fa">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live/languages-light.svg?v=c6bfb1fa">
+  <img alt="Language share across public repos: TypeScript 71.5%, Python 16.0%, Kotlin 7.1%, JavaScript 4.7%, Jupyter Notebook 0.7%" src="./assets/live/languages-light.svg?v=c6bfb1fa" width="100%">
 </picture>
 <!-- LANG:END -->
 
@@ -250,11 +250,11 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
+- **[LeetX](https://github.com/NINJA981/LeetX)**: feat(auth): one-click GitHub sign-in via OAuth broker Worker · today
 - **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · 2 weeks ago
 - **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · 2 weeks ago
 - **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · 2 weeks ago
 - **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · 2 weeks ago
-- **[catchline](https://github.com/NINJA981/catchline)**: Released catchline v0.1.0 · 2 weeks ago
 <!-- ACTIVITY:END -->
 
 <details>
