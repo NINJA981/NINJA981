@@ -250,7 +250,7 @@ A production store built for a real business, with real payments:
 **Recently shipped** (public repositories, refreshed automatically)
 
 <!-- ACTIVITY:START -->
-- **[LeetX](https://github.com/NINJA981/LeetX)**: feat(update): in-popup update-available banner · today
+- **[LeetX](https://github.com/NINJA981/LeetX)**: feat(update): in-popup update-available banner · yesterday
 - **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · 3 weeks ago
 - **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · 3 weeks ago
 - **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · 3 weeks ago
