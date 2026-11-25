@@ -251,10 +251,10 @@ A production store built for a real business, with real payments:
 
 <!-- ACTIVITY:START -->
 - **[LeetX](https://github.com/NINJA981/LeetX)**: feat(update): in-popup update-available banner · today
-- **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · 2 weeks ago
-- **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · 2 weeks ago
-- **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · 2 weeks ago
-- **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · 2 weeks ago
+- **[readback](https://github.com/NINJA981/readback)**: Released readback v0.1.0 · 3 weeks ago
+- **[old-news](https://github.com/NINJA981/old-news)**: Released old-news v0.1.0 · 3 weeks ago
+- **[factory-twins](https://github.com/NINJA981/factory-twins)**: Released factory-twins v0.1.0 · 3 weeks ago
+- **[hang-up-club](https://github.com/NINJA981/hang-up-club)**: Released hang-up-club v0.1.0 · 3 weeks ago
 <!-- ACTIVITY:END -->
 
 <details>
